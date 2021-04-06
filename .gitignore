@@ -71,3 +71,4 @@ fastlane/test_output
 Docs/videos
 .DS_Store
 /Pods
+/Podfile.lock
