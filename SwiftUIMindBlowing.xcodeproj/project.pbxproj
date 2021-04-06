@@ -16,6 +16,7 @@
 		7FE01DAD24ADB4340001C2CB /* TwoEqualWidthColumnsExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE01DAC24ADB4340001C2CB /* TwoEqualWidthColumnsExampleView.swift */; };
 		9915305F2613EEBE0097630F /* MyApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9915305E2613EEBE0097630F /* MyApplication.swift */; };
 		991530622613EF570097630F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991530612613EF570097630F /* main.swift */; };
+		99A21263261D014C00572036 /* TealeafLayoutConfig.json in Resources */ = {isa = PBXBuildFile; fileRef = 99A21262261D014C00572036 /* TealeafLayoutConfig.json */; };
 		A825DB2B1F31812C8EE98A3A /* Pods_SwiftUIMindBlowing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E19CD723BB7285BE6F77ACC7 /* Pods_SwiftUIMindBlowing.framework */; };
 		F60D9B7622C15EDD002891EE /* BlendModeExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60D9B7522C15EDD002891EE /* BlendModeExampleView.swift */; };
 		F60D9B7A22C161FA002891EE /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60D9B7922C161FA002891EE /* SearchBarView.swift */; };
@@ -145,6 +146,7 @@
 		9915305E2613EEBE0097630F /* MyApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyApplication.swift; sourceTree = "<group>"; };
 		991530612613EF570097630F /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		991530972613F2E60097630F /* SwiftUIMindBlowing-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftUIMindBlowing-Bridging-Header.h"; sourceTree = "<group>"; };
+		99A21262261D014C00572036 /* TealeafLayoutConfig.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = TealeafLayoutConfig.json; sourceTree = "<group>"; };
 		BC911E8542CFA1A69DAE5ED3 /* Pods-SwiftUIMindBlowing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUIMindBlowing.debug.xcconfig"; path = "Target Support Files/Pods-SwiftUIMindBlowing/Pods-SwiftUIMindBlowing.debug.xcconfig"; sourceTree = "<group>"; };
 		E19CD723BB7285BE6F77ACC7 /* Pods_SwiftUIMindBlowing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftUIMindBlowing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F60D9B7522C15EDD002891EE /* BlendModeExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlendModeExampleView.swift; sourceTree = "<group>"; };
@@ -301,6 +303,14 @@
 				E19CD723BB7285BE6F77ACC7 /* Pods_SwiftUIMindBlowing.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		99A21261261D00FC00572036 /* PatchTealeafSDK */ = {
+			isa = PBXGroup;
+			children = (
+				99A21262261D014C00572036 /* TealeafLayoutConfig.json */,
+			);
+			path = PatchTealeafSDK;
 			sourceTree = "<group>";
 		};
 		F60ED6AE2376EB2600E3E3B9 /* Gradients */ = {
@@ -888,6 +898,7 @@
 		F6F47C7622BABEF7009E3C48 = {
 			isa = PBXGroup;
 			children = (
+				99A21261261D00FC00572036 /* PatchTealeafSDK */,
 				F6F92B2323618BF7000CCC4D /* README.md */,
 				F6F47C8122BABEF7009E3C48 /* Sources */,
 				F6F47C8022BABEF7009E3C48 /* Products */,
@@ -959,6 +970,7 @@
 			buildConfigurationList = F6F47C9322BABEF8009E3C48 /* Build configuration list for PBXNativeTarget "SwiftUIMindBlowing" */;
 			buildPhases = (
 				9DBAE76CDE3ECBD947B9B3EF /* [CP] Check Pods Manifest.lock */,
+				99A2126A261D020100572036 /* Run Script - Update TealeafLayoutConfig.json */,
 				F6F47C7B22BABEF7009E3C48 /* Sources */,
 				F6F47C7C22BABEF7009E3C48 /* Frameworks */,
 				F6F47C7D22BABEF7009E3C48 /* Resources */,
@@ -1020,6 +1032,7 @@
 			files = (
 				F6180F1E236A41C000C5354A /* error.html in Resources */,
 				F6F47C8F22BABEF8009E3C48 /* LaunchScreen.storyboard in Resources */,
+				99A21263261D014C00572036 /* TealeafLayoutConfig.json in Resources */,
 				F6F47C8C22BABEF8009E3C48 /* Preview Assets.xcassets in Resources */,
 				F6F92B2423618BF7000CCC4D /* README.md in Resources */,
 				F6F47C8922BABEF8009E3C48 /* Assets.xcassets in Resources */,
@@ -1045,6 +1058,24 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftUIMindBlowing/Pods-SwiftUIMindBlowing-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		99A2126A261D020100572036 /* Run Script - Update TealeafLayoutConfig.json */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script - Update TealeafLayoutConfig.json";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Since pod has default layout, need to replace it with correct values for this application.\necho \"Update TealeafLayoutConfig.json from podfile download.\"\ncp -f \"${PROJECT_DIR}/PatchTealeafSDK/TealeafLayoutConfig.json\" \"${PODS_ROOT}/IBMTealeafDebug/SDKs/iOS/Debug/Tealeaf.framework/TLFResources.bundle/TealeafLayoutConfig.json\"\n\n";
 		};
 		9DBAE76CDE3ECBD947B9B3EF /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
