@@ -13,7 +13,7 @@ struct ExampleView<Content>: View where Content: View {
     private var demoContentView: Content
     private let remoteSourcePath: String?
 
-    @available(*, deprecated, message: "Please use DemoView instead of this ExampleView")
+//    @available(*, deprecated, message: "Please use DemoView instead of this ExampleView")
     public init(title: String = "", demoContentView: @autoclosure @escaping () -> Content, remoteSourcePath: String? = nil) {
         self.title = title
         self.demoContentView = demoContentView()

@@ -30,9 +30,9 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
             window.makeKeyAndVisible()
         }
 
-        if let shortcutItem = connectionOptions.shortcutItem {
-            store.send(.reset)
-        }
+//        if let shortcutItem = connectionOptions.shortcutItem {
+//            store.send(.reset)
+//        }
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
