@@ -29,7 +29,6 @@ struct TextFieldsExampleDemoView: View {
         }
         .navigationBarTitle("TextFields")
         .padding()
-//        .padding(.bottom, keyboardResponder.keyboardHeight)
     }
 }
 

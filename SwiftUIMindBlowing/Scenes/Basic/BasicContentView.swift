@@ -10,6 +10,15 @@ struct BasicContentView: View {
         MainView(title: "Basic") {
             ModalPresenter() {
                 List {
+                    Section(header: Text("Network Calls")) {
+                        Group { // Group is used to overcome limitation of 10 Subviews in a ViewBuilder
+                            NavigationLink(destination: ApiCallExampleView()) {
+                                ExampleCellView(
+                                    title: "ApiCall",
+                                    subtitle: "A control which calls api to get data.")
+                            }
+                        }
+                    }
                     Section(header: Text("Views and Controls")) {
                         Group { // Group is used to overcome limitation of 10 Subviews in a ViewBuilder
                             NavigationLink(destination: TextExampleView()) {

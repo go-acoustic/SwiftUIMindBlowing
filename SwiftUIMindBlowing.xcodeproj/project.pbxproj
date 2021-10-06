@@ -20,6 +20,8 @@
 		99931053270D27AB00F759A0 /* ModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99931052270D27AB00F759A0 /* ModalView.swift */; };
 		99931056270D2E4D00F759A0 /* TextFieldsExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99931055270D2E4D00F759A0 /* TextFieldsExampleView.swift */; };
 		99931058270D2E6200F759A0 /* TextFieldsExampleDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99931057270D2E6200F759A0 /* TextFieldsExampleDemoView.swift */; };
+		9993105B270D32E200F759A0 /* ApiCallExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9993105A270D32E200F759A0 /* ApiCallExampleView.swift */; };
+		9993105D270D32FB00F759A0 /* ApiCallExampleDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9993105C270D32FB00F759A0 /* ApiCallExampleDemoView.swift */; };
 		99A21263261D014C00572036 /* TealeafLayoutConfig.json in Resources */ = {isa = PBXBuildFile; fileRef = 99A21262261D014C00572036 /* TealeafLayoutConfig.json */; };
 		F60D9B7622C15EDD002891EE /* BlendModeExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60D9B7522C15EDD002891EE /* BlendModeExampleView.swift */; };
 		F60D9B7A22C161FA002891EE /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60D9B7922C161FA002891EE /* SearchBarView.swift */; };
@@ -152,6 +154,8 @@
 		99931052270D27AB00F759A0 /* ModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalView.swift; sourceTree = "<group>"; };
 		99931055270D2E4D00F759A0 /* TextFieldsExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldsExampleView.swift; sourceTree = "<group>"; };
 		99931057270D2E6200F759A0 /* TextFieldsExampleDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldsExampleDemoView.swift; sourceTree = "<group>"; };
+		9993105A270D32E200F759A0 /* ApiCallExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiCallExampleView.swift; sourceTree = "<group>"; };
+		9993105C270D32FB00F759A0 /* ApiCallExampleDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiCallExampleDemoView.swift; sourceTree = "<group>"; };
 		99A21262261D014C00572036 /* TealeafLayoutConfig.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = TealeafLayoutConfig.json; sourceTree = "<group>"; };
 		C373CFF5CA26735AAFA3B7F4 /* Pods-SwiftUIMindBlowing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUIMindBlowing.release.xcconfig"; path = "Target Support Files/Pods-SwiftUIMindBlowing/Pods-SwiftUIMindBlowing.release.xcconfig"; sourceTree = "<group>"; };
 		F60D9B7522C15EDD002891EE /* BlendModeExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlendModeExampleView.swift; sourceTree = "<group>"; };
@@ -326,6 +330,15 @@
 			path = TextFields;
 			sourceTree = "<group>";
 		};
+		99931059270D32A800F759A0 /* ApiCall */ = {
+			isa = PBXGroup;
+			children = (
+				9993105A270D32E200F759A0 /* ApiCallExampleView.swift */,
+				9993105C270D32FB00F759A0 /* ApiCallExampleDemoView.swift */,
+			);
+			path = ApiCall;
+			sourceTree = "<group>";
+		};
 		99A21261261D00FC00572036 /* PatchTealeafSDK */ = {
 			isa = PBXGroup;
 			children = (
@@ -436,6 +449,7 @@
 		F67794A822BE3F7C005F1D0C /* ViewsAndControls */ = {
 			isa = PBXGroup;
 			children = (
+				99931059270D32A800F759A0 /* ApiCall */,
 				99931054270D2E1700F759A0 /* TextFields */,
 				F6ACE148236B785800BFAB98 /* Text */,
 				F6ACE149236B786000BFAB98 /* TextField */,
@@ -1148,6 +1162,7 @@
 				F69E4006236C83F300B44D67 /* RotationGestureExampleView.swift in Sources */,
 				F6E5A9D2236E241D00BC0852 /* BlendModeExampleDemoView.swift in Sources */,
 				F6E5A99E236DACD300BC0852 /* ListExampleDemoView.swift in Sources */,
+				9993105B270D32E200F759A0 /* ApiCallExampleView.swift in Sources */,
 				9915305F2613EEBE0097630F /* MyApplication.swift in Sources */,
 				F679D071236C45A200C67666 /* LongPressGestureExampleView.swift in Sources */,
 				F67794F822BE3F7C005F1D0C /* SFSymbols.swift in Sources */,
@@ -1216,6 +1231,7 @@
 				F6E5A9A1236DAD4300BC0852 /* ZStackExampleView.swift in Sources */,
 				F6ACE17A236B999D00BFAB98 /* TapGestureExampleDemoView.swift in Sources */,
 				F677948E22BE3F5D005F1D0C /* WKWebViewUI.swift in Sources */,
+				9993105D270D32FB00F759A0 /* ApiCallExampleDemoView.swift in Sources */,
 				7FE01DAD24ADB4340001C2CB /* TwoEqualWidthColumnsExampleView.swift in Sources */,
 				F60D9B7622C15EDD002891EE /* BlendModeExampleView.swift in Sources */,
 				F6ACE14F236B795E00BFAB98 /* NavigationLinkExampleDemoView.swift in Sources */,
