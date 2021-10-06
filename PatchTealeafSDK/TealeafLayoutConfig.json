@@ -8,8 +8,8 @@
             "NumberOfWebViews": 0,
             "CaptureUserEvents": true,
             "CaptureScreenVisits": false,
-            "CaptureLayoutOn": 1,
-            "CaptureScreenshotOn": 1
+            "CaptureLayoutOn": 2,
+            "CaptureScreenshotOn": 2
         }
     },
     "AppendMapIds": {
