@@ -3,5 +3,5 @@ platform :ios, '14.0'
 
 target 'SwiftUIMindBlowing' do
   use_frameworks!
-  pod 'IBMTealeafDebug'
+  pod 'TealeafDebug'
 end
