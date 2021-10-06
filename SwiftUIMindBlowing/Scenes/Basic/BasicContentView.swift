@@ -27,6 +27,11 @@ struct BasicContentView: View {
                                     title: "SecureTextField",
                                     subtitle: "A control into which the user securely enters private text.")
                             }
+                            NavigationLink(destination: TextFieldsExampleView()) {
+                                ExampleCellView(
+                                    title: "TextFields",
+                                    subtitle: "A control into which the user enters into several type of textfields.")
+                            }
                             NavigationLink(destination: FontExampleView()) {
                                 ExampleCellView(
                                     title: "Font",
