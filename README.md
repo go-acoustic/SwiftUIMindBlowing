@@ -1,6 +1,6 @@
 # SwiftUIMindBlowing
 
-SwiftUIMindBlowing is a SwiftUI sample application that shows how to integrate [Tealeaf SDK](https://github.com/acoustic-analytics/IBMTealeaf) following [docs](https://developer.goacoustic.com/acoustic-exp-analytics/docs/getting-started-with-the-acoustic-tealeaf-sdk-for-ios-using-swift).
+SwiftUIMindBlowing is a SwiftUI sample application that shows how to integrate [Tealeaf SDK](https://github.com/acoustic-analytics/Tealeaf) following [docs](https://developer.goacoustic.com/acoustic-exp-analytics/docs/get-started-add-the-ios-sdk-to-your-project).
 
 
 ## Getting Started
@@ -9,7 +9,7 @@ SwiftUIMindBlowing is a SwiftUI sample application that shows how to integrate [
 
 You need to have recent cocoapods version install on your Mac OS. Current version is 1.10.1. Please refer to [cocoapods](https://cocoapods.org) website for the details.
 
-For SDK prerequisites and documentation, please refer to the SDK documentation [here](https://developer.goacoustic.com/acoustic-exp-analytics/docs/getting-started-with-the-acoustic-tealeaf-sdk-for-ios-using-swift)
+For SDK prerequisites and documentation, please refer to the SDK documentation [here](https://developer.goacoustic.com/acoustic-exp-analytics/docs/get-started-add-the-ios-sdk-to-your-project)
 
 ### Installing
 
@@ -29,15 +29,15 @@ Note that use_frameworks is uncommented
 
 In the respective targets for your project in the Podfile add the following line if you want to use Tealeaf SDK's release version
 
-`pod 'IBMTealeaf'`
+`pod 'Tealeaf'`
 
 In the respective targets for your project in the Podfile add the following line if you want to use Tealeaf SDK's debug version
 
-`pod 'IBMTealeafDebug'`
+`pod 'TealeafDebug'`
 
-You will notice that by default the sample application uses `pod 'IBMTealeafDebug'`
+You will notice that by default the sample application uses `pod 'TealeafDebug'`
 
-Note that you can use only one of  `pod 'IBMTealeaf'` and `pod 'IBMTealeafDebug'`. Do not use both at the same time.
+**Note** that you can use only one of `pod 'Tealeaf'` or `pod 'TealeafDebug'`. Do not use both at the same time.
 
 Now you need to install the pods by running one of the following commands.
 
@@ -53,13 +53,14 @@ Open `SwiftUIMindBlowing.xcworkspace` file and not the `SwiftUIMindBlowing.xcode
 
 ## Troubleshooting
 
-If you are using Debug version of Tealeaf SDK. i.e. `pod 'IBMTealeafDebug'` , then you may edit your project's scheme in XCode and add environmental variable `EODebug`and set its value to 1; also add environmental variable `TLF_DEBUG` and set its value to 1. This will make the SDK to start writing debug logs to your xcode console window. If and when you want to report issues, the Tealeaf support engineers will ask you for these logs.
+If you are using Debug version of Tealeaf SDK. i.e. `pod 'TealeafDebug'` , then you may edit your project's scheme in XCode and add environmental variable `EODebug` and set its value to 1; also add environmental variable `TLF_DEBUG` and set its value to 1. This will make the SDK to start writing debug logs to your xcode console window. If and when you want to report issues, the Tealeaf support engineers will ask you for these logs.
 
+![Step 1](https://github.com/acoustic-analytics/SwiftUIMindBlowing/blob/main/readme_stuff/environment_variables.png?raw=true)
 
-## Versioning
+***
 
 # Taken original code from [SwiftUIMindBlowing](https://github.com/antranapp/SwiftUIMindBlowing)
-# SwiftUI MindBlowing 🤯
+## SwiftUI MindBlowing 🤯
 
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![License](https://img.shields.io/badge/Swift-5.1-blue.svg)](https://opensource.org/licenses/MIT)
