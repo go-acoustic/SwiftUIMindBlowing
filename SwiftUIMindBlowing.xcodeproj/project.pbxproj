@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A539F417722EF486574040D /* Pods_SwiftUIMindBlowing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBBD58B09B404BBB5723C2DD /* Pods_SwiftUIMindBlowing.framework */; };
 		7F337C9224AEF68A004ED5CE /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F337C9124AEF68A004ED5CE /* Constants.swift */; };
 		7FC5FD6024B1FB2600BF4464 /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC5FD5F24B1FB2600BF4464 /* View+Extensions.swift */; };
 		7FC5FD6424B2046B00BF4464 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC5FD6324B2046B00BF4464 /* MainView.swift */; };
@@ -151,7 +152,6 @@
 		999310E5270D451700F759A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6F47C8822BABEF8009E3C48 /* Assets.xcassets */; };
 		99931111270D461400F759A0 /* Tealeaf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99931104270D45FD00F759A0 /* Tealeaf.framework */; };
 		99A21263261D014C00572036 /* TealeafLayoutConfig.json in Resources */ = {isa = PBXBuildFile; fileRef = 99A21262261D014C00572036 /* TealeafLayoutConfig.json */; };
-		AB76A2BCA92D4D59E3F67861 /* Pods_SwiftUIMindBlowing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF7C3CBC86243FE2E09771BA /* Pods_SwiftUIMindBlowing.framework */; };
 		F60D9B7622C15EDD002891EE /* BlendModeExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60D9B7522C15EDD002891EE /* BlendModeExampleView.swift */; };
 		F60D9B7A22C161FA002891EE /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60D9B7922C161FA002891EE /* SearchBarView.swift */; };
 		F60ED6A52375F59800E3E3B9 /* RectangleExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60ED6A42375F59800E3E3B9 /* RectangleExampleView.swift */; };
@@ -327,8 +327,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3DBABDF191D4C02559462695 /* Pods-SwiftUIMindBlowing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUIMindBlowing.debug.xcconfig"; path = "Target Support Files/Pods-SwiftUIMindBlowing/Pods-SwiftUIMindBlowing.debug.xcconfig"; sourceTree = "<group>"; };
-		53A166F42DEB02E1AED40D2E /* Pods-SwiftUIMindBlowing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUIMindBlowing.release.xcconfig"; path = "Target Support Files/Pods-SwiftUIMindBlowing/Pods-SwiftUIMindBlowing.release.xcconfig"; sourceTree = "<group>"; };
+		5FA64C6C480C9D0D34B53E71 /* Pods-SwiftUIMindBlowing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUIMindBlowing.debug.xcconfig"; path = "Target Support Files/Pods-SwiftUIMindBlowing/Pods-SwiftUIMindBlowing.debug.xcconfig"; sourceTree = "<group>"; };
 		7F337C9124AEF68A004ED5CE /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		7FC5FD5F24B1FB2600BF4464 /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
 		7FC5FD6324B2046B00BF4464 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -336,6 +335,7 @@
 		7FC5FD6B24B2E79B00BF4464 /* AppStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStore.swift; sourceTree = "<group>"; };
 		7FC5FD6D24B2E7BA00BF4464 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		7FE01DAC24ADB4340001C2CB /* TwoEqualWidthColumnsExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoEqualWidthColumnsExampleView.swift; sourceTree = "<group>"; };
+		98678EEBFAD12F228363FC59 /* Pods-SwiftUIMindBlowing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUIMindBlowing.release.xcconfig"; path = "Target Support Files/Pods-SwiftUIMindBlowing/Pods-SwiftUIMindBlowing.release.xcconfig"; sourceTree = "<group>"; };
 		9915305E2613EEBE0097630F /* MyApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyApplication.swift; sourceTree = "<group>"; };
 		991530612613EF570097630F /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		991530972613F2E60097630F /* SwiftUIMindBlowing-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftUIMindBlowing-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -348,7 +348,7 @@
 		999310EC270D451700F759A0 /* SwiftUIMindBlowing-copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "SwiftUIMindBlowing-copy-Info.plist"; path = "/Users/ohernandez@us.ibm.com/git/github/SwiftUIMindBlowing 3/SwiftUIMindBlowing-copy-Info.plist"; sourceTree = "<absolute>"; };
 		999310ED270D45FD00F759A0 /* Tealeaf.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Tealeaf.xcodeproj; path = "../iOS-SDK/iOSSrc/Tealeaf/Tealeaf.xcodeproj"; sourceTree = "<group>"; };
 		99A21262261D014C00572036 /* TealeafLayoutConfig.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = TealeafLayoutConfig.json; sourceTree = "<group>"; };
-		DF7C3CBC86243FE2E09771BA /* Pods_SwiftUIMindBlowing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftUIMindBlowing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBBD58B09B404BBB5723C2DD /* Pods_SwiftUIMindBlowing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftUIMindBlowing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F60D9B7522C15EDD002891EE /* BlendModeExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlendModeExampleView.swift; sourceTree = "<group>"; };
 		F60D9B7922C161FA002891EE /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
 		F60D9B7B22C1662F002891EE /* KeyboardAwareExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardAwareExampleView.swift; sourceTree = "<group>"; };
@@ -480,7 +480,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB76A2BCA92D4D59E3F67861 /* Pods_SwiftUIMindBlowing.framework in Frameworks */,
+				3A539F417722EF486574040D /* Pods_SwiftUIMindBlowing.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -490,8 +490,8 @@
 		09F938854170AC4BBBC65B22 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3DBABDF191D4C02559462695 /* Pods-SwiftUIMindBlowing.debug.xcconfig */,
-				53A166F42DEB02E1AED40D2E /* Pods-SwiftUIMindBlowing.release.xcconfig */,
+				5FA64C6C480C9D0D34B53E71 /* Pods-SwiftUIMindBlowing.debug.xcconfig */,
+				98678EEBFAD12F228363FC59 /* Pods-SwiftUIMindBlowing.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -1211,7 +1211,7 @@
 			isa = PBXGroup;
 			children = (
 				999310ED270D45FD00F759A0 /* Tealeaf.xcodeproj */,
-				DF7C3CBC86243FE2E09771BA /* Pods_SwiftUIMindBlowing.framework */,
+				CBBD58B09B404BBB5723C2DD /* Pods_SwiftUIMindBlowing.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -1240,13 +1240,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F6F47C9322BABEF8009E3C48 /* Build configuration list for PBXNativeTarget "SwiftUIMindBlowing" */;
 			buildPhases = (
-				B0737566D99C3BBAB3ECF9D3 /* [CP] Check Pods Manifest.lock */,
+				FED1D9E1116399FCB740FD7F /* [CP] Check Pods Manifest.lock */,
 				99A2126A261D020100572036 /* Run Script - Update TealeafLayoutConfig.json */,
 				F6F47C7B22BABEF7009E3C48 /* Sources */,
 				F6F47C7C22BABEF7009E3C48 /* Frameworks */,
 				F6F47C7D22BABEF7009E3C48 /* Resources */,
-				34AA2ADE7CA9B7BDF2E74708 /* [CP] Embed Pods Frameworks */,
-				800691E753BAC8C69A98357B /* [CP] Copy Pods Resources */,
+				C4E21A06F54E388921F0C5C2 /* [CP] Embed Pods Frameworks */,
+				5CC09985D3A6CDC47B7992F8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1386,24 +1386,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		34AA2ADE7CA9B7BDF2E74708 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SwiftUIMindBlowing/Pods-SwiftUIMindBlowing-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SwiftUIMindBlowing/Pods-SwiftUIMindBlowing-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftUIMindBlowing/Pods-SwiftUIMindBlowing-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		800691E753BAC8C69A98357B /* [CP] Copy Pods Resources */ = {
+		5CC09985D3A6CDC47B7992F8 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1438,7 +1421,24 @@
 			shellPath = /bin/sh;
 			shellScript = "# Since pod has default layout, need to replace it with correct values for this application.\necho \"Update TealeafLayoutConfig.json from podfile download.\"\ncp -f \"${PROJECT_DIR}/PatchTealeafSDK/TealeafLayoutConfig.json\" \"${PODS_ROOT}/TealeafDebug/SDKs/iOS/Debug/TLFResources.bundle/TealeafLayoutConfig.json\"\necho \"Update TealeafAdvancedConfig.json from podfile download.\"\nsed -i \"\" 's/\\\"RemoveSwiftUIDuplicates\\\"\\: true/\\\"RemoveSwiftUIDuplicates\\\"\\: false/' \"${PODS_ROOT}/TealeafDebug/SDKs/iOS/Debug/TLFResources.bundle/TealeafAdvancedConfig.json\"\nsed -i \"\" 's/\\\"LogFullRequestResponsePayloads\\\"\\: false/\\\"LogFullRequestResponsePayloads\\\"\\: true/' \"${PODS_ROOT}/TealeafDebug/SDKs/iOS/Debug/TLFResources.bundle/TealeafAdvancedConfig.json\"\n";
 		};
-		B0737566D99C3BBAB3ECF9D3 /* [CP] Check Pods Manifest.lock */ = {
+		C4E21A06F54E388921F0C5C2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftUIMindBlowing/Pods-SwiftUIMindBlowing-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftUIMindBlowing/Pods-SwiftUIMindBlowing-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftUIMindBlowing/Pods-SwiftUIMindBlowing-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FED1D9E1116399FCB740FD7F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1902,7 +1902,7 @@
 		};
 		F6F47C9422BABEF8009E3C48 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3DBABDF191D4C02559462695 /* Pods-SwiftUIMindBlowing.debug.xcconfig */;
+			baseConfigurationReference = 5FA64C6C480C9D0D34B53E71 /* Pods-SwiftUIMindBlowing.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Apple Development";
@@ -1926,7 +1926,7 @@
 		};
 		F6F47C9522BABEF8009E3C48 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 53A166F42DEB02E1AED40D2E /* Pods-SwiftUIMindBlowing.release.xcconfig */;
+			baseConfigurationReference = 98678EEBFAD12F228363FC59 /* Pods-SwiftUIMindBlowing.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Apple Development";
