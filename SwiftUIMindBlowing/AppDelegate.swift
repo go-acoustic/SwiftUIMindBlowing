@@ -4,9 +4,11 @@
 
 import UIKit
 import Tealeaf
+import EOCore
 class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         let tlfApplicationHelperObj =  TLFApplicationHelper()
+        
         tlfApplicationHelperObj.enableTealeafFramework()
         // Override point for customization after application launch.
         return true

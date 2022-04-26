@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3A539F417722EF486574040D /* Pods_SwiftUIMindBlowing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBBD58B09B404BBB5723C2DD /* Pods_SwiftUIMindBlowing.framework */; };
+		76E6F43D27093A915BA6C1C2 /* Pods_SwiftUIMindBlowing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E465620A62102B0C02447385 /* Pods_SwiftUIMindBlowing.framework */; };
 		7F337C9224AEF68A004ED5CE /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F337C9124AEF68A004ED5CE /* Constants.swift */; };
 		7FC5FD6024B1FB2600BF4464 /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC5FD5F24B1FB2600BF4464 /* View+Extensions.swift */; };
 		7FC5FD6424B2046B00BF4464 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC5FD6324B2046B00BF4464 /* MainView.swift */; };
@@ -17,6 +17,15 @@
 		7FE01DAD24ADB4340001C2CB /* TwoEqualWidthColumnsExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE01DAC24ADB4340001C2CB /* TwoEqualWidthColumnsExampleView.swift */; };
 		9915305F2613EEBE0097630F /* MyApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9915305E2613EEBE0097630F /* MyApplication.swift */; };
 		991530622613EF570097630F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991530612613EF570097630F /* main.swift */; };
+		99372B8128171BB400612DE3 /* URLSessionDelegateGetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99372B8028171BB300612DE3 /* URLSessionDelegateGetView.swift */; };
+		99372B8328171BC900612DE3 /* URLSessionDelegateGetDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99372B8228171BC900612DE3 /* URLSessionDelegateGetDemoView.swift */; };
+		99372B9D28175D1200612DE3 /* URLSessionDelegateUploadDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99372B9C28175D1200612DE3 /* URLSessionDelegateUploadDemoView.swift */; };
+		99372B9F28175D2700612DE3 /* URLSessionDelegateUploadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99372B9E28175D2700612DE3 /* URLSessionDelegateUploadView.swift */; };
+		99372BA128175E3800612DE3 /* URLSessionDelegateTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99372BA028175E3800612DE3 /* URLSessionDelegateTest.swift */; };
+		99372BA5281760C500612DE3 /* URLSessionDelegateRedirectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99372BA4281760C500612DE3 /* URLSessionDelegateRedirectView.swift */; };
+		99372BA7281760DC00612DE3 /* URLSessionDelegateRedirectDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99372BA6281760DC00612DE3 /* URLSessionDelegateRedirectDemoView.swift */; };
+		99372BA92817610300612DE3 /* URLSessionDelegateDownloadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99372BA82817610300612DE3 /* URLSessionDelegateDownloadView.swift */; };
+		99372BAB2817611E00612DE3 /* URLSessionDelegateDownloadDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99372BAA2817611E00612DE3 /* URLSessionDelegateDownloadDemoView.swift */; };
 		99931053270D27AB00F759A0 /* ModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99931052270D27AB00F759A0 /* ModalView.swift */; };
 		99931056270D2E4D00F759A0 /* TextFieldsExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99931055270D2E4D00F759A0 /* TextFieldsExampleView.swift */; };
 		99931058270D2E6200F759A0 /* TextFieldsExampleDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99931057270D2E6200F759A0 /* TextFieldsExampleDemoView.swift */; };
@@ -268,6 +277,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		99372B7C28171B7600612DE3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 999310ED270D45FD00F759A0 /* Tealeaf.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 990B8E8C27E56383000EC5FA;
+			remoteInfo = XCTealeafReactNativeTests;
+		};
+		99372B7E28171B7600612DE3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 999310ED270D45FD00F759A0 /* Tealeaf.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 990B8E0727E54D6C000EC5FA;
+			remoteInfo = XCTealeafReactNativeTestApp;
+		};
 		99931101270D45FD00F759A0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 999310ED270D45FD00F759A0 /* Tealeaf.xcodeproj */;
@@ -327,7 +350,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5FA64C6C480C9D0D34B53E71 /* Pods-SwiftUIMindBlowing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUIMindBlowing.debug.xcconfig"; path = "Target Support Files/Pods-SwiftUIMindBlowing/Pods-SwiftUIMindBlowing.debug.xcconfig"; sourceTree = "<group>"; };
+		20AE31921CC2A23494ADB1EA /* Pods-SwiftUIMindBlowing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUIMindBlowing.debug.xcconfig"; path = "Target Support Files/Pods-SwiftUIMindBlowing/Pods-SwiftUIMindBlowing.debug.xcconfig"; sourceTree = "<group>"; };
+		5A99F82076C7B3F9A3FF6291 /* Pods-SwiftUIMindBlowing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUIMindBlowing.release.xcconfig"; path = "Target Support Files/Pods-SwiftUIMindBlowing/Pods-SwiftUIMindBlowing.release.xcconfig"; sourceTree = "<group>"; };
 		7F337C9124AEF68A004ED5CE /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		7FC5FD5F24B1FB2600BF4464 /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
 		7FC5FD6324B2046B00BF4464 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -335,10 +359,18 @@
 		7FC5FD6B24B2E79B00BF4464 /* AppStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStore.swift; sourceTree = "<group>"; };
 		7FC5FD6D24B2E7BA00BF4464 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		7FE01DAC24ADB4340001C2CB /* TwoEqualWidthColumnsExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoEqualWidthColumnsExampleView.swift; sourceTree = "<group>"; };
-		98678EEBFAD12F228363FC59 /* Pods-SwiftUIMindBlowing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUIMindBlowing.release.xcconfig"; path = "Target Support Files/Pods-SwiftUIMindBlowing/Pods-SwiftUIMindBlowing.release.xcconfig"; sourceTree = "<group>"; };
 		9915305E2613EEBE0097630F /* MyApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyApplication.swift; sourceTree = "<group>"; };
 		991530612613EF570097630F /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		991530972613F2E60097630F /* SwiftUIMindBlowing-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftUIMindBlowing-Bridging-Header.h"; sourceTree = "<group>"; };
+		99372B8028171BB300612DE3 /* URLSessionDelegateGetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionDelegateGetView.swift; sourceTree = "<group>"; };
+		99372B8228171BC900612DE3 /* URLSessionDelegateGetDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionDelegateGetDemoView.swift; sourceTree = "<group>"; };
+		99372B9C28175D1200612DE3 /* URLSessionDelegateUploadDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionDelegateUploadDemoView.swift; sourceTree = "<group>"; };
+		99372B9E28175D2700612DE3 /* URLSessionDelegateUploadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionDelegateUploadView.swift; sourceTree = "<group>"; };
+		99372BA028175E3800612DE3 /* URLSessionDelegateTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionDelegateTest.swift; sourceTree = "<group>"; };
+		99372BA4281760C500612DE3 /* URLSessionDelegateRedirectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionDelegateRedirectView.swift; sourceTree = "<group>"; };
+		99372BA6281760DC00612DE3 /* URLSessionDelegateRedirectDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionDelegateRedirectDemoView.swift; sourceTree = "<group>"; };
+		99372BA82817610300612DE3 /* URLSessionDelegateDownloadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionDelegateDownloadView.swift; sourceTree = "<group>"; };
+		99372BAA2817611E00612DE3 /* URLSessionDelegateDownloadDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionDelegateDownloadDemoView.swift; sourceTree = "<group>"; };
 		99931052270D27AB00F759A0 /* ModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalView.swift; sourceTree = "<group>"; };
 		99931055270D2E4D00F759A0 /* TextFieldsExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldsExampleView.swift; sourceTree = "<group>"; };
 		99931057270D2E6200F759A0 /* TextFieldsExampleDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldsExampleDemoView.swift; sourceTree = "<group>"; };
@@ -348,7 +380,7 @@
 		999310EC270D451700F759A0 /* SwiftUIMindBlowing-copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "SwiftUIMindBlowing-copy-Info.plist"; path = "/Users/ohernandez@us.ibm.com/git/github/SwiftUIMindBlowing 3/SwiftUIMindBlowing-copy-Info.plist"; sourceTree = "<absolute>"; };
 		999310ED270D45FD00F759A0 /* Tealeaf.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Tealeaf.xcodeproj; path = "../iOS-SDK/iOSSrc/Tealeaf/Tealeaf.xcodeproj"; sourceTree = "<group>"; };
 		99A21262261D014C00572036 /* TealeafLayoutConfig.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = TealeafLayoutConfig.json; sourceTree = "<group>"; };
-		CBBD58B09B404BBB5723C2DD /* Pods_SwiftUIMindBlowing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftUIMindBlowing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E465620A62102B0C02447385 /* Pods_SwiftUIMindBlowing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftUIMindBlowing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F60D9B7522C15EDD002891EE /* BlendModeExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlendModeExampleView.swift; sourceTree = "<group>"; };
 		F60D9B7922C161FA002891EE /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
 		F60D9B7B22C1662F002891EE /* KeyboardAwareExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardAwareExampleView.swift; sourceTree = "<group>"; };
@@ -480,7 +512,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A539F417722EF486574040D /* Pods_SwiftUIMindBlowing.framework in Frameworks */,
+				76E6F43D27093A915BA6C1C2 /* Pods_SwiftUIMindBlowing.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -490,8 +522,8 @@
 		09F938854170AC4BBBC65B22 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				5FA64C6C480C9D0D34B53E71 /* Pods-SwiftUIMindBlowing.debug.xcconfig */,
-				98678EEBFAD12F228363FC59 /* Pods-SwiftUIMindBlowing.release.xcconfig */,
+				20AE31921CC2A23494ADB1EA /* Pods-SwiftUIMindBlowing.debug.xcconfig */,
+				5A99F82076C7B3F9A3FF6291 /* Pods-SwiftUIMindBlowing.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -502,6 +534,43 @@
 				7FC5FD5F24B1FB2600BF4464 /* View+Extensions.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		99372B6B28171B7600612DE3 /* URLSessionDelegateGet */ = {
+			isa = PBXGroup;
+			children = (
+				99372B8028171BB300612DE3 /* URLSessionDelegateGetView.swift */,
+				99372B8228171BC900612DE3 /* URLSessionDelegateGetDemoView.swift */,
+			);
+			path = URLSessionDelegateGet;
+			sourceTree = "<group>";
+		};
+		99372B9B28175CDE00612DE3 /* URLSessionDelegateUpload */ = {
+			isa = PBXGroup;
+			children = (
+				99372B9E28175D2700612DE3 /* URLSessionDelegateUploadView.swift */,
+				99372B9C28175D1200612DE3 /* URLSessionDelegateUploadDemoView.swift */,
+				99372BA028175E3800612DE3 /* URLSessionDelegateTest.swift */,
+			);
+			path = URLSessionDelegateUpload;
+			sourceTree = "<group>";
+		};
+		99372BA22817606D00612DE3 /* URLSessionDelegateRedirect */ = {
+			isa = PBXGroup;
+			children = (
+				99372BA4281760C500612DE3 /* URLSessionDelegateRedirectView.swift */,
+				99372BA6281760DC00612DE3 /* URLSessionDelegateRedirectDemoView.swift */,
+			);
+			path = URLSessionDelegateRedirect;
+			sourceTree = "<group>";
+		};
+		99372BA32817608200612DE3 /* URLSessionDelegateDownload */ = {
+			isa = PBXGroup;
+			children = (
+				99372BA82817610300612DE3 /* URLSessionDelegateDownloadView.swift */,
+				99372BAA2817611E00612DE3 /* URLSessionDelegateDownloadDemoView.swift */,
+			);
+			path = URLSessionDelegateDownload;
 			sourceTree = "<group>";
 		};
 		99931051270D278200F759A0 /* ModalView */ = {
@@ -539,8 +608,10 @@
 				99931108270D45FD00F759A0 /* TealeafReactNative.framework */,
 				9993110A270D45FD00F759A0 /* TealeafTests.xctest */,
 				9993110C270D45FD00F759A0 /* XCTealeafTests.xctest */,
+				99372B7D28171B7600612DE3 /* XCTealeafReactNativeTests.xctest */,
 				9993110E270D45FD00F759A0 /* TealeafTestApp.app */,
 				99931110270D45FD00F759A0 /* XCTealeafTestApp.app */,
+				99372B7F28171B7600612DE3 /* XCTealeafReactNativeTestApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -656,6 +727,10 @@
 			isa = PBXGroup;
 			children = (
 				99931059270D32A800F759A0 /* ApiCall */,
+				99372B6B28171B7600612DE3 /* URLSessionDelegateGet */,
+				99372B9B28175CDE00612DE3 /* URLSessionDelegateUpload */,
+				99372BA22817606D00612DE3 /* URLSessionDelegateRedirect */,
+				99372BA32817608200612DE3 /* URLSessionDelegateDownload */,
 				99931054270D2E1700F759A0 /* TextFields */,
 				F6ACE148236B785800BFAB98 /* Text */,
 				F6ACE149236B786000BFAB98 /* TextField */,
@@ -1211,7 +1286,7 @@
 			isa = PBXGroup;
 			children = (
 				999310ED270D45FD00F759A0 /* Tealeaf.xcodeproj */,
-				CBBD58B09B404BBB5723C2DD /* Pods_SwiftUIMindBlowing.framework */,
+				E465620A62102B0C02447385 /* Pods_SwiftUIMindBlowing.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -1240,13 +1315,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F6F47C9322BABEF8009E3C48 /* Build configuration list for PBXNativeTarget "SwiftUIMindBlowing" */;
 			buildPhases = (
-				FED1D9E1116399FCB740FD7F /* [CP] Check Pods Manifest.lock */,
+				D58FF1D589F4EDAE18ABC62E /* [CP] Check Pods Manifest.lock */,
 				99A2126A261D020100572036 /* Run Script - Update TealeafLayoutConfig.json */,
 				F6F47C7B22BABEF7009E3C48 /* Sources */,
 				F6F47C7C22BABEF7009E3C48 /* Frameworks */,
 				F6F47C7D22BABEF7009E3C48 /* Resources */,
-				C4E21A06F54E388921F0C5C2 /* [CP] Embed Pods Frameworks */,
-				5CC09985D3A6CDC47B7992F8 /* [CP] Copy Pods Resources */,
+				EBD3E411C1578184DD9249DD /* [CP] Embed Pods Frameworks */,
+				5FA06F63910809AD6175C416 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1298,6 +1373,20 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
+		99372B7D28171B7600612DE3 /* XCTealeafReactNativeTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = XCTealeafReactNativeTests.xctest;
+			remoteRef = 99372B7C28171B7600612DE3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		99372B7F28171B7600612DE3 /* XCTealeafReactNativeTestApp.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = XCTealeafReactNativeTestApp.app;
+			remoteRef = 99372B7E28171B7600612DE3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		99931102270D45FD00F759A0 /* libTealeaf.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -1386,7 +1475,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		5CC09985D3A6CDC47B7992F8 /* [CP] Copy Pods Resources */ = {
+		5FA06F63910809AD6175C416 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1421,24 +1510,7 @@
 			shellPath = /bin/sh;
 			shellScript = "# Since pod has default layout, need to replace it with correct values for this application.\necho \"Update TealeafLayoutConfig.json from podfile download.\"\ncp -f \"${PROJECT_DIR}/PatchTealeafSDK/TealeafLayoutConfig.json\" \"${PODS_ROOT}/TealeafDebug/SDKs/iOS/Debug/TLFResources.bundle/TealeafLayoutConfig.json\"\necho \"Update TealeafAdvancedConfig.json from podfile download.\"\nsed -i \"\" 's/\\\"RemoveSwiftUIDuplicates\\\"\\: true/\\\"RemoveSwiftUIDuplicates\\\"\\: false/' \"${PODS_ROOT}/TealeafDebug/SDKs/iOS/Debug/TLFResources.bundle/TealeafAdvancedConfig.json\"\nsed -i \"\" 's/\\\"LogFullRequestResponsePayloads\\\"\\: false/\\\"LogFullRequestResponsePayloads\\\"\\: true/' \"${PODS_ROOT}/TealeafDebug/SDKs/iOS/Debug/TLFResources.bundle/TealeafAdvancedConfig.json\"\n";
 		};
-		C4E21A06F54E388921F0C5C2 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SwiftUIMindBlowing/Pods-SwiftUIMindBlowing-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SwiftUIMindBlowing/Pods-SwiftUIMindBlowing-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftUIMindBlowing/Pods-SwiftUIMindBlowing-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		FED1D9E1116399FCB740FD7F /* [CP] Check Pods Manifest.lock */ = {
+		D58FF1D589F4EDAE18ABC62E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1458,6 +1530,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EBD3E411C1578184DD9249DD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftUIMindBlowing/Pods-SwiftUIMindBlowing-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftUIMindBlowing/Pods-SwiftUIMindBlowing-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftUIMindBlowing/Pods-SwiftUIMindBlowing-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -1604,25 +1693,31 @@
 				F69E4006236C83F300B44D67 /* RotationGestureExampleView.swift in Sources */,
 				F6E5A9D2236E241D00BC0852 /* BlendModeExampleDemoView.swift in Sources */,
 				F6E5A99E236DACD300BC0852 /* ListExampleDemoView.swift in Sources */,
+				99372B9D28175D1200612DE3 /* URLSessionDelegateUploadDemoView.swift in Sources */,
 				9993105B270D32E200F759A0 /* ApiCallExampleView.swift in Sources */,
 				9915305F2613EEBE0097630F /* MyApplication.swift in Sources */,
 				F679D071236C45A200C67666 /* LongPressGestureExampleView.swift in Sources */,
 				F67794F822BE3F7C005F1D0C /* SFSymbols.swift in Sources */,
+				99372BAB2817611E00612DE3 /* URLSessionDelegateDownloadDemoView.swift in Sources */,
 				F60ED6A92376C0F100E3E3B9 /* RoundedRectangleExampleView.swift in Sources */,
 				F6E5A9C4236E136600BC0852 /* DividerExampleDemoView.swift in Sources */,
 				F67794DB22BE3F7C005F1D0C /* MindBlowingContentView.swift in Sources */,
 				F67794F222BE3F7C005F1D0C /* AnimationContentView.swift in Sources */,
 				F6E5A9B5236DE63100BC0852 /* ForEachExampleView.swift in Sources */,
 				F6ACE17E236B9D3900BFAB98 /* ViewModifierCompositionExampleView.swift in Sources */,
+				99372B8328171BC900612DE3 /* URLSessionDelegateGetDemoView.swift in Sources */,
 				F6ACE178236B996D00BFAB98 /* TapGestureExampleView.swift in Sources */,
 				F67794F922BE3F7C005F1D0C /* SFSymbolsContentView.swift in Sources */,
+				99372BA7281760DC00612DE3 /* URLSessionDelegateRedirectDemoView.swift in Sources */,
 				F6E5A9C9236E142C00BC0852 /* ExclusiveGestureExampleDemoView.swift in Sources */,
 				F69551982369E27E00B81712 /* HStackExampleDemoView.swift in Sources */,
+				99372B8128171BB400612DE3 /* URLSessionDelegateGetView.swift in Sources */,
 				F67794EA22BE3F7C005F1D0C /* PickerExampleView.swift in Sources */,
 				7FC5FD6C24B2E79B00BF4464 /* AppStore.swift in Sources */,
 				F67794CF22BE3F7C005F1D0C /* CookbookContentView.swift in Sources */,
 				F60ED6A52375F59800E3E3B9 /* RectangleExampleView.swift in Sources */,
 				7FC5FD6E24B2E7BA00BF4464 /* RootView.swift in Sources */,
+				99372BA5281760C500612DE3 /* URLSessionDelegateRedirectView.swift in Sources */,
 				F60ED6AB2376CE6400E3E3B9 /* WKWebViewStore.swift in Sources */,
 				F6E5A9A3236DAD6800BC0852 /* ZStackExampleDemoView.swift in Sources */,
 				F6E5A9BA236DE76F00BC0852 /* TabViewExampleView.swift in Sources */,
@@ -1639,6 +1734,7 @@
 				F6F92B342362D509000CCC4D /* SimpleCarouselView.swift in Sources */,
 				F6E5A9B7236DE66700BC0852 /* ForEachExampleDemoView.swift in Sources */,
 				7FC5FD6024B1FB2600BF4464 /* View+Extensions.swift in Sources */,
+				99372BA128175E3800612DE3 /* URLSessionDelegateTest.swift in Sources */,
 				F67794F322BE3F7C005F1D0C /* ScaleEffectExampleView.swift in Sources */,
 				F6E5A9CE236E228600BC0852 /* RotationEffectExampleDemoView.swift in Sources */,
 				F6E5A9D4236E246C00BC0852 /* ScaleEffectExampleDemoView.swift in Sources */,
@@ -1672,6 +1768,7 @@
 				F67794E422BE3F7C005F1D0C /* ToggleExampleView.swift in Sources */,
 				F6E5A9A1236DAD4300BC0852 /* ZStackExampleView.swift in Sources */,
 				F6ACE17A236B999D00BFAB98 /* TapGestureExampleDemoView.swift in Sources */,
+				99372BA92817610300612DE3 /* URLSessionDelegateDownloadView.swift in Sources */,
 				F677948E22BE3F5D005F1D0C /* WKWebViewUI.swift in Sources */,
 				9993105D270D32FB00F759A0 /* ApiCallExampleDemoView.swift in Sources */,
 				7FE01DAD24ADB4340001C2CB /* TwoEqualWidthColumnsExampleView.swift in Sources */,
@@ -1710,6 +1807,7 @@
 				F677949022BE3F5D005F1D0C /* ExampleCellView.swift in Sources */,
 				F67794EC22BE3F7C005F1D0C /* HStackExampleView.swift in Sources */,
 				F6B5DC73236C714E000D1EED /* DragGestureExampleView.swift in Sources */,
+				99372B9F28175D2700612DE3 /* URLSessionDelegateUploadView.swift in Sources */,
 				F69551A1236A388800B81712 /* WKWebViewUICoordinator.swift in Sources */,
 				F67794E222BE3F7C005F1D0C /* StepperExampleView.swift in Sources */,
 				F67794E522BE3F7C005F1D0C /* EditButtonExampleView.swift in Sources */,
@@ -1902,7 +2000,7 @@
 		};
 		F6F47C9422BABEF8009E3C48 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5FA64C6C480C9D0D34B53E71 /* Pods-SwiftUIMindBlowing.debug.xcconfig */;
+			baseConfigurationReference = 20AE31921CC2A23494ADB1EA /* Pods-SwiftUIMindBlowing.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Apple Development";
@@ -1926,7 +2024,7 @@
 		};
 		F6F47C9522BABEF8009E3C48 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 98678EEBFAD12F228363FC59 /* Pods-SwiftUIMindBlowing.release.xcconfig */;
+			baseConfigurationReference = 5A99F82076C7B3F9A3FF6291 /* Pods-SwiftUIMindBlowing.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Apple Development";

@@ -17,6 +17,26 @@ struct BasicContentView: View {
                                     title: "ApiCall",
                                     subtitle: "A control which calls api to get data.")
                             }
+                            NavigationLink(destination: URLSessionDelegateGetView()) {
+                                ExampleCellView(
+                                    title: "URLSessionDelegate Get Api Calls",
+                                    subtitle: "A control which calls api to get data.")
+                            }
+                            NavigationLink(destination: URLSessionDelegateUploadView()) {
+                                ExampleCellView(
+                                    title: "URLSessionDelegate Upload Api Calls",
+                                    subtitle: "A control which calls api to upload data.")
+                            }
+                            NavigationLink(destination: URLSessionDelegateRedirectView()) {
+                                ExampleCellView(
+                                    title: "URLSessionDelegate Get Redirect Api Calls",
+                                    subtitle: "A control which calls api to redirect get data.")
+                            }
+                            NavigationLink(destination: URLSessionDelegateDownloadView()) {
+                                ExampleCellView(
+                                    title: "URLSessionDelegate Download Api Calls",
+                                    subtitle: "A control which calls api to download data.")
+                            }
                         }
                     }
                     Section(header: Text("Views and Controls")) {
