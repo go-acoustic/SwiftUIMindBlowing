@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6D6FAE152880D6D0002D8FCE /* URLSessionDelegateGetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99372B8028171BB300612DE3 /* URLSessionDelegateGetView.swift */; };
+		6D6FAE162880DF07002D8FCE /* URLSessionDelegateGetDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99372B8228171BC900612DE3 /* URLSessionDelegateGetDemoView.swift */; };
+		6D6FAE172880DF07002D8FCE /* URLSessionDelegateUploadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99372B9E28175D2700612DE3 /* URLSessionDelegateUploadView.swift */; };
+		6D6FAE182880DF07002D8FCE /* URLSessionDelegateUploadDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99372B9C28175D1200612DE3 /* URLSessionDelegateUploadDemoView.swift */; };
+		6D6FAE192880DF07002D8FCE /* URLSessionDelegateTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99372BA028175E3800612DE3 /* URLSessionDelegateTest.swift */; };
+		6D6FAE1A2880DF07002D8FCE /* URLSessionDelegateRedirectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99372BA4281760C500612DE3 /* URLSessionDelegateRedirectView.swift */; };
+		6D6FAE1B2880DF07002D8FCE /* URLSessionDelegateRedirectDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99372BA6281760DC00612DE3 /* URLSessionDelegateRedirectDemoView.swift */; };
+		6D6FAE1C2880DF07002D8FCE /* URLSessionDelegateDownloadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99372BA82817610300612DE3 /* URLSessionDelegateDownloadView.swift */; };
+		6D6FAE1D2880DF07002D8FCE /* URLSessionDelegateDownloadDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99372BAA2817611E00612DE3 /* URLSessionDelegateDownloadDemoView.swift */; };
 		76E6F43D27093A915BA6C1C2 /* Pods_SwiftUIMindBlowing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E465620A62102B0C02447385 /* Pods_SwiftUIMindBlowing.framework */; };
 		7F337C9224AEF68A004ED5CE /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F337C9124AEF68A004ED5CE /* Constants.swift */; };
 		7FC5FD6024B1FB2600BF4464 /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC5FD5F24B1FB2600BF4464 /* View+Extensions.swift */; };
@@ -159,7 +168,6 @@
 		999310E3270D451700F759A0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6F47C8B22BABEF8009E3C48 /* Preview Assets.xcassets */; };
 		999310E4270D451700F759A0 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F6F92B2323618BF7000CCC4D /* README.md */; };
 		999310E5270D451700F759A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6F47C8822BABEF8009E3C48 /* Assets.xcassets */; };
-		99931111270D461400F759A0 /* Tealeaf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99931104270D45FD00F759A0 /* Tealeaf.framework */; };
 		99A21263261D014C00572036 /* TealeafLayoutConfig.json in Resources */ = {isa = PBXBuildFile; fileRef = 99A21262261D014C00572036 /* TealeafLayoutConfig.json */; };
 		F60D9B7622C15EDD002891EE /* BlendModeExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60D9B7522C15EDD002891EE /* BlendModeExampleView.swift */; };
 		F60D9B7A22C161FA002891EE /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F60D9B7922C161FA002891EE /* SearchBarView.swift */; };
@@ -277,81 +285,89 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		99372B7C28171B7600612DE3 /* PBXContainerItemProxy */ = {
+		6D6FADEB287FAE15002D8FCE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 999310ED270D45FD00F759A0 /* Tealeaf.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 990B8E8C27E56383000EC5FA;
-			remoteInfo = XCTealeafReactNativeTests;
-		};
-		99372B7E28171B7600612DE3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 999310ED270D45FD00F759A0 /* Tealeaf.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 990B8E0727E54D6C000EC5FA;
-			remoteInfo = XCTealeafReactNativeTestApp;
-		};
-		99931101270D45FD00F759A0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 999310ED270D45FD00F759A0 /* Tealeaf.xcodeproj */;
+			containerPortal = 6D6FADD8287FAE15002D8FCE /* Tealeaf.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 66FD56BA1A3A4BD600E3827C;
 			remoteInfo = Tealeaf;
 		};
-		99931103270D45FD00F759A0 /* PBXContainerItemProxy */ = {
+		6D6FADED287FAE15002D8FCE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 999310ED270D45FD00F759A0 /* Tealeaf.xcodeproj */;
+			containerPortal = 6D6FADD8287FAE15002D8FCE /* Tealeaf.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 99C6CC5A25CB9FF5004298D8;
 			remoteInfo = XCTealeaf;
 		};
-		99931105270D45FD00F759A0 /* PBXContainerItemProxy */ = {
+		6D6FADEF287FAE15002D8FCE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 999310ED270D45FD00F759A0 /* Tealeaf.xcodeproj */;
+			containerPortal = 6D6FADD8287FAE15002D8FCE /* Tealeaf.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 99610C0A20A10F3100F412B8;
 			remoteInfo = TealeafReactNative;
 		};
-		99931107270D45FD00F759A0 /* PBXContainerItemProxy */ = {
+		6D6FADF1287FAE15002D8FCE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 999310ED270D45FD00F759A0 /* Tealeaf.xcodeproj */;
+			containerPortal = 6D6FADD8287FAE15002D8FCE /* Tealeaf.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 99865E0F25E0916100B905BE;
 			remoteInfo = XCTealeafReactNative;
 		};
-		99931109270D45FD00F759A0 /* PBXContainerItemProxy */ = {
+		6D6FADF3287FAE15002D8FCE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 999310ED270D45FD00F759A0 /* Tealeaf.xcodeproj */;
+			containerPortal = 6D6FADD8287FAE15002D8FCE /* Tealeaf.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 66FD56C51A3A4BD600E3827C;
 			remoteInfo = TealeafTests;
 		};
-		9993110B270D45FD00F759A0 /* PBXContainerItemProxy */ = {
+		6D6FADF5287FAE15002D8FCE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 999310ED270D45FD00F759A0 /* Tealeaf.xcodeproj */;
+			containerPortal = 6D6FADD8287FAE15002D8FCE /* Tealeaf.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 992D4ABB25E06AED00476193;
 			remoteInfo = XCTealeafTests;
 		};
-		9993110D270D45FD00F759A0 /* PBXContainerItemProxy */ = {
+		6D6FADF7287FAE15002D8FCE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 999310ED270D45FD00F759A0 /* Tealeaf.xcodeproj */;
+			containerPortal = 6D6FADD8287FAE15002D8FCE /* Tealeaf.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 990B8E8C27E56383000EC5FA;
+			remoteInfo = XCTealeafReactNativeTests;
+		};
+		6D6FADF9287FAE15002D8FCE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D6FADD8287FAE15002D8FCE /* Tealeaf.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 66FD56E01A3A4F7C00E3827C;
 			remoteInfo = TealeafTestApp;
 		};
-		9993110F270D45FD00F759A0 /* PBXContainerItemProxy */ = {
+		6D6FADFB287FAE15002D8FCE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 999310ED270D45FD00F759A0 /* Tealeaf.xcodeproj */;
+			containerPortal = 6D6FADD8287FAE15002D8FCE /* Tealeaf.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 992D4B0125E06B0700476193;
 			remoteInfo = XCTealeafTestApp;
+		};
+		6D6FADFD287FAE15002D8FCE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D6FADD8287FAE15002D8FCE /* Tealeaf.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 990B8E0727E54D6C000EC5FA;
+			remoteInfo = XCTealeafReactNativeTestApp;
+		};
+		6D6FAE032880D5C7002D8FCE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D6FADD8287FAE15002D8FCE /* Tealeaf.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 99C6CC5925CB9FF5004298D8;
+			remoteInfo = XCTealeaf;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		20AE31921CC2A23494ADB1EA /* Pods-SwiftUIMindBlowing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUIMindBlowing.debug.xcconfig"; path = "Target Support Files/Pods-SwiftUIMindBlowing/Pods-SwiftUIMindBlowing.debug.xcconfig"; sourceTree = "<group>"; };
 		5A99F82076C7B3F9A3FF6291 /* Pods-SwiftUIMindBlowing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUIMindBlowing.release.xcconfig"; path = "Target Support Files/Pods-SwiftUIMindBlowing/Pods-SwiftUIMindBlowing.release.xcconfig"; sourceTree = "<group>"; };
+		6D6FADD8287FAE15002D8FCE /* Tealeaf.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Tealeaf.xcodeproj; path = "../iOS-SDK_StandAlone/iOSSrc/Tealeaf/Tealeaf.xcodeproj"; sourceTree = "<group>"; };
 		7F337C9124AEF68A004ED5CE /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		7FC5FD5F24B1FB2600BF4464 /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
 		7FC5FD6324B2046B00BF4464 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -378,7 +394,6 @@
 		9993105C270D32FB00F759A0 /* ApiCallExampleDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiCallExampleDemoView.swift; sourceTree = "<group>"; };
 		999310EB270D451700F759A0 /* SwiftUIMindBlowingLinkLocalLib.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIMindBlowingLinkLocalLib.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		999310EC270D451700F759A0 /* SwiftUIMindBlowing-copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "SwiftUIMindBlowing-copy-Info.plist"; path = "/Users/ohernandez@us.ibm.com/git/github/SwiftUIMindBlowing 3/SwiftUIMindBlowing-copy-Info.plist"; sourceTree = "<absolute>"; };
-		999310ED270D45FD00F759A0 /* Tealeaf.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Tealeaf.xcodeproj; path = "../iOS-SDK/iOSSrc/Tealeaf/Tealeaf.xcodeproj"; sourceTree = "<group>"; };
 		99A21262261D014C00572036 /* TealeafLayoutConfig.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = TealeafLayoutConfig.json; sourceTree = "<group>"; };
 		E465620A62102B0C02447385 /* Pods_SwiftUIMindBlowing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftUIMindBlowing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F60D9B7522C15EDD002891EE /* BlendModeExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlendModeExampleView.swift; sourceTree = "<group>"; };
@@ -504,7 +519,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				99931111270D461400F759A0 /* Tealeaf.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -526,6 +540,23 @@
 				5A99F82076C7B3F9A3FF6291 /* Pods-SwiftUIMindBlowing.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		6D6FADD9287FAE15002D8FCE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D6FADEC287FAE15002D8FCE /* libTealeaf.a */,
+				6D6FADEE287FAE15002D8FCE /* Tealeaf.framework */,
+				6D6FADF0287FAE15002D8FCE /* libTealeafReactNative.a */,
+				6D6FADF2287FAE15002D8FCE /* TealeafReactNative.framework */,
+				6D6FADF4287FAE15002D8FCE /* TealeafTests.xctest */,
+				6D6FADF6287FAE15002D8FCE /* XCTealeafTests.xctest */,
+				6D6FADF8287FAE15002D8FCE /* XCTealeafReactNativeTests.xctest */,
+				6D6FADFA287FAE15002D8FCE /* TealeafTestApp.app */,
+				6D6FADFC287FAE15002D8FCE /* XCTealeafTestApp.app */,
+				6D6FADFE287FAE15002D8FCE /* XCTealeafReactNativeTestApp.app */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		7FC5FD5E24B1FB1900BF4464 /* Extensions */ = {
@@ -597,23 +628,6 @@
 				9993105C270D32FB00F759A0 /* ApiCallExampleDemoView.swift */,
 			);
 			path = ApiCall;
-			sourceTree = "<group>";
-		};
-		999310EE270D45FD00F759A0 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				99931102270D45FD00F759A0 /* libTealeaf.a */,
-				99931104270D45FD00F759A0 /* Tealeaf.framework */,
-				99931106270D45FD00F759A0 /* libTealeafReactNative.a */,
-				99931108270D45FD00F759A0 /* TealeafReactNative.framework */,
-				9993110A270D45FD00F759A0 /* TealeafTests.xctest */,
-				9993110C270D45FD00F759A0 /* XCTealeafTests.xctest */,
-				99372B7D28171B7600612DE3 /* XCTealeafReactNativeTests.xctest */,
-				9993110E270D45FD00F759A0 /* TealeafTestApp.app */,
-				99931110270D45FD00F759A0 /* XCTealeafTestApp.app */,
-				99372B7F28171B7600612DE3 /* XCTealeafReactNativeTestApp.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		99A21261261D00FC00572036 /* PatchTealeafSDK */ = {
@@ -1285,7 +1299,7 @@
 		FBE3E19E1B5E1849C5DB8CAD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				999310ED270D45FD00F759A0 /* Tealeaf.xcodeproj */,
+				6D6FADD8287FAE15002D8FCE /* Tealeaf.xcodeproj */,
 				E465620A62102B0C02447385 /* Pods_SwiftUIMindBlowing.framework */,
 			);
 			name = Frameworks;
@@ -1305,6 +1319,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				6D6FAE042880D5C7002D8FCE /* PBXTargetDependency */,
 			);
 			name = SwiftUIMindBlowingLinkLocalLib;
 			productName = SwiftUICookbook;
@@ -1360,8 +1375,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 999310EE270D45FD00F759A0 /* Products */;
-					ProjectRef = 999310ED270D45FD00F759A0 /* Tealeaf.xcodeproj */;
+					ProductGroup = 6D6FADD9287FAE15002D8FCE /* Products */;
+					ProjectRef = 6D6FADD8287FAE15002D8FCE /* Tealeaf.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -1373,74 +1388,74 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		99372B7D28171B7600612DE3 /* XCTealeafReactNativeTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = XCTealeafReactNativeTests.xctest;
-			remoteRef = 99372B7C28171B7600612DE3 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		99372B7F28171B7600612DE3 /* XCTealeafReactNativeTestApp.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = XCTealeafReactNativeTestApp.app;
-			remoteRef = 99372B7E28171B7600612DE3 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		99931102270D45FD00F759A0 /* libTealeaf.a */ = {
+		6D6FADEC287FAE15002D8FCE /* libTealeaf.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libTealeaf.a;
-			remoteRef = 99931101270D45FD00F759A0 /* PBXContainerItemProxy */;
+			remoteRef = 6D6FADEB287FAE15002D8FCE /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		99931104270D45FD00F759A0 /* Tealeaf.framework */ = {
+		6D6FADEE287FAE15002D8FCE /* Tealeaf.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = Tealeaf.framework;
-			remoteRef = 99931103270D45FD00F759A0 /* PBXContainerItemProxy */;
+			remoteRef = 6D6FADED287FAE15002D8FCE /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		99931106270D45FD00F759A0 /* libTealeafReactNative.a */ = {
+		6D6FADF0287FAE15002D8FCE /* libTealeafReactNative.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libTealeafReactNative.a;
-			remoteRef = 99931105270D45FD00F759A0 /* PBXContainerItemProxy */;
+			remoteRef = 6D6FADEF287FAE15002D8FCE /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		99931108270D45FD00F759A0 /* TealeafReactNative.framework */ = {
+		6D6FADF2287FAE15002D8FCE /* TealeafReactNative.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = TealeafReactNative.framework;
-			remoteRef = 99931107270D45FD00F759A0 /* PBXContainerItemProxy */;
+			remoteRef = 6D6FADF1287FAE15002D8FCE /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		9993110A270D45FD00F759A0 /* TealeafTests.xctest */ = {
+		6D6FADF4287FAE15002D8FCE /* TealeafTests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = TealeafTests.xctest;
-			remoteRef = 99931109270D45FD00F759A0 /* PBXContainerItemProxy */;
+			remoteRef = 6D6FADF3287FAE15002D8FCE /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		9993110C270D45FD00F759A0 /* XCTealeafTests.xctest */ = {
+		6D6FADF6287FAE15002D8FCE /* XCTealeafTests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = XCTealeafTests.xctest;
-			remoteRef = 9993110B270D45FD00F759A0 /* PBXContainerItemProxy */;
+			remoteRef = 6D6FADF5287FAE15002D8FCE /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		9993110E270D45FD00F759A0 /* TealeafTestApp.app */ = {
+		6D6FADF8287FAE15002D8FCE /* XCTealeafReactNativeTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = XCTealeafReactNativeTests.xctest;
+			remoteRef = 6D6FADF7287FAE15002D8FCE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6D6FADFA287FAE15002D8FCE /* TealeafTestApp.app */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.application;
 			path = TealeafTestApp.app;
-			remoteRef = 9993110D270D45FD00F759A0 /* PBXContainerItemProxy */;
+			remoteRef = 6D6FADF9287FAE15002D8FCE /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		99931110270D45FD00F759A0 /* XCTealeafTestApp.app */ = {
+		6D6FADFC287FAE15002D8FCE /* XCTealeafTestApp.app */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.application;
 			path = XCTealeafTestApp.app;
-			remoteRef = 9993110F270D45FD00F759A0 /* PBXContainerItemProxy */;
+			remoteRef = 6D6FADFB287FAE15002D8FCE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6D6FADFE287FAE15002D8FCE /* XCTealeafReactNativeTestApp.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = XCTealeafReactNativeTestApp.app;
+			remoteRef = 6D6FADFD287FAE15002D8FCE /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -1556,6 +1571,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D6FAE162880DF07002D8FCE /* URLSessionDelegateGetDemoView.swift in Sources */,
+				6D6FAE172880DF07002D8FCE /* URLSessionDelegateUploadView.swift in Sources */,
+				6D6FAE182880DF07002D8FCE /* URLSessionDelegateUploadDemoView.swift in Sources */,
+				6D6FAE192880DF07002D8FCE /* URLSessionDelegateTest.swift in Sources */,
+				6D6FAE1A2880DF07002D8FCE /* URLSessionDelegateRedirectView.swift in Sources */,
+				6D6FAE1B2880DF07002D8FCE /* URLSessionDelegateRedirectDemoView.swift in Sources */,
+				6D6FAE1C2880DF07002D8FCE /* URLSessionDelegateDownloadView.swift in Sources */,
+				6D6FAE1D2880DF07002D8FCE /* URLSessionDelegateDownloadDemoView.swift in Sources */,
 				99931063270D451700F759A0 /* MapKitExampleView.swift in Sources */,
 				99931064270D451700F759A0 /* DispatchTimerExampleView.swift in Sources */,
 				99931065270D451700F759A0 /* SecureFieldExampleView.swift in Sources */,
@@ -1678,6 +1701,7 @@
 				999310DA270D451700F759A0 /* SceneDelegate.swift in Sources */,
 				999310DB270D451700F759A0 /* ImageExampleView.swift in Sources */,
 				999310DC270D451700F759A0 /* DatePickerExampleView.swift in Sources */,
+				6D6FAE152880D6D0002D8FCE /* URLSessionDelegateGetView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1820,6 +1844,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6D6FAE042880D5C7002D8FCE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XCTealeaf;
+			targetProxy = 6D6FAE032880D5C7002D8FCE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		F6F47C8D22BABEF8009E3C48 /* LaunchScreen.storyboard */ = {
