@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D0A3315D2F4014F9AE4145B /* Pods_SwiftUIMindBlowing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB7C20ED9E3C09D1B0C8D88A /* Pods_SwiftUIMindBlowing.framework */; };
 		6D6FAE152880D6D0002D8FCE /* URLSessionDelegateGetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99372B8028171BB300612DE3 /* URLSessionDelegateGetView.swift */; };
 		6D6FAE162880DF07002D8FCE /* URLSessionDelegateGetDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99372B8228171BC900612DE3 /* URLSessionDelegateGetDemoView.swift */; };
 		6D6FAE172880DF07002D8FCE /* URLSessionDelegateUploadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99372B9E28175D2700612DE3 /* URLSessionDelegateUploadView.swift */; };
@@ -16,7 +17,6 @@
 		6D6FAE1B2880DF07002D8FCE /* URLSessionDelegateRedirectDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99372BA6281760DC00612DE3 /* URLSessionDelegateRedirectDemoView.swift */; };
 		6D6FAE1C2880DF07002D8FCE /* URLSessionDelegateDownloadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99372BA82817610300612DE3 /* URLSessionDelegateDownloadView.swift */; };
 		6D6FAE1D2880DF07002D8FCE /* URLSessionDelegateDownloadDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99372BAA2817611E00612DE3 /* URLSessionDelegateDownloadDemoView.swift */; };
-		76E6F43D27093A915BA6C1C2 /* Pods_SwiftUIMindBlowing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E465620A62102B0C02447385 /* Pods_SwiftUIMindBlowing.framework */; };
 		7F337C9224AEF68A004ED5CE /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F337C9124AEF68A004ED5CE /* Constants.swift */; };
 		7FC5FD6024B1FB2600BF4464 /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC5FD5F24B1FB2600BF4464 /* View+Extensions.swift */; };
 		7FC5FD6424B2046B00BF4464 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC5FD6324B2046B00BF4464 /* MainView.swift */; };
@@ -285,79 +285,79 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		6D6FADEB287FAE15002D8FCE /* PBXContainerItemProxy */ = {
+		6D6FAE352880F3CF002D8FCE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 6D6FADD8287FAE15002D8FCE /* Tealeaf.xcodeproj */;
+			containerPortal = 6D6FAE222880F3CF002D8FCE /* Tealeaf.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 66FD56BA1A3A4BD600E3827C;
 			remoteInfo = Tealeaf;
 		};
-		6D6FADED287FAE15002D8FCE /* PBXContainerItemProxy */ = {
+		6D6FAE372880F3CF002D8FCE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 6D6FADD8287FAE15002D8FCE /* Tealeaf.xcodeproj */;
+			containerPortal = 6D6FAE222880F3CF002D8FCE /* Tealeaf.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 99C6CC5A25CB9FF5004298D8;
 			remoteInfo = XCTealeaf;
 		};
-		6D6FADEF287FAE15002D8FCE /* PBXContainerItemProxy */ = {
+		6D6FAE392880F3CF002D8FCE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 6D6FADD8287FAE15002D8FCE /* Tealeaf.xcodeproj */;
+			containerPortal = 6D6FAE222880F3CF002D8FCE /* Tealeaf.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 99610C0A20A10F3100F412B8;
 			remoteInfo = TealeafReactNative;
 		};
-		6D6FADF1287FAE15002D8FCE /* PBXContainerItemProxy */ = {
+		6D6FAE3B2880F3CF002D8FCE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 6D6FADD8287FAE15002D8FCE /* Tealeaf.xcodeproj */;
+			containerPortal = 6D6FAE222880F3CF002D8FCE /* Tealeaf.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 99865E0F25E0916100B905BE;
 			remoteInfo = XCTealeafReactNative;
 		};
-		6D6FADF3287FAE15002D8FCE /* PBXContainerItemProxy */ = {
+		6D6FAE3D2880F3CF002D8FCE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 6D6FADD8287FAE15002D8FCE /* Tealeaf.xcodeproj */;
+			containerPortal = 6D6FAE222880F3CF002D8FCE /* Tealeaf.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 66FD56C51A3A4BD600E3827C;
 			remoteInfo = TealeafTests;
 		};
-		6D6FADF5287FAE15002D8FCE /* PBXContainerItemProxy */ = {
+		6D6FAE3F2880F3CF002D8FCE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 6D6FADD8287FAE15002D8FCE /* Tealeaf.xcodeproj */;
+			containerPortal = 6D6FAE222880F3CF002D8FCE /* Tealeaf.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 992D4ABB25E06AED00476193;
 			remoteInfo = XCTealeafTests;
 		};
-		6D6FADF7287FAE15002D8FCE /* PBXContainerItemProxy */ = {
+		6D6FAE412880F3CF002D8FCE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 6D6FADD8287FAE15002D8FCE /* Tealeaf.xcodeproj */;
+			containerPortal = 6D6FAE222880F3CF002D8FCE /* Tealeaf.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 990B8E8C27E56383000EC5FA;
 			remoteInfo = XCTealeafReactNativeTests;
 		};
-		6D6FADF9287FAE15002D8FCE /* PBXContainerItemProxy */ = {
+		6D6FAE432880F3CF002D8FCE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 6D6FADD8287FAE15002D8FCE /* Tealeaf.xcodeproj */;
+			containerPortal = 6D6FAE222880F3CF002D8FCE /* Tealeaf.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 66FD56E01A3A4F7C00E3827C;
 			remoteInfo = TealeafTestApp;
 		};
-		6D6FADFB287FAE15002D8FCE /* PBXContainerItemProxy */ = {
+		6D6FAE452880F3CF002D8FCE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 6D6FADD8287FAE15002D8FCE /* Tealeaf.xcodeproj */;
+			containerPortal = 6D6FAE222880F3CF002D8FCE /* Tealeaf.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 992D4B0125E06B0700476193;
 			remoteInfo = XCTealeafTestApp;
 		};
-		6D6FADFD287FAE15002D8FCE /* PBXContainerItemProxy */ = {
+		6D6FAE472880F3CF002D8FCE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 6D6FADD8287FAE15002D8FCE /* Tealeaf.xcodeproj */;
+			containerPortal = 6D6FAE222880F3CF002D8FCE /* Tealeaf.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 990B8E0727E54D6C000EC5FA;
 			remoteInfo = XCTealeafReactNativeTestApp;
 		};
-		6D6FAE032880D5C7002D8FCE /* PBXContainerItemProxy */ = {
+		6D6FAE502880F42D002D8FCE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 6D6FADD8287FAE15002D8FCE /* Tealeaf.xcodeproj */;
+			containerPortal = 6D6FAE222880F3CF002D8FCE /* Tealeaf.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = 99C6CC5925CB9FF5004298D8;
 			remoteInfo = XCTealeaf;
@@ -365,9 +365,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		20AE31921CC2A23494ADB1EA /* Pods-SwiftUIMindBlowing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUIMindBlowing.debug.xcconfig"; path = "Target Support Files/Pods-SwiftUIMindBlowing/Pods-SwiftUIMindBlowing.debug.xcconfig"; sourceTree = "<group>"; };
-		5A99F82076C7B3F9A3FF6291 /* Pods-SwiftUIMindBlowing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUIMindBlowing.release.xcconfig"; path = "Target Support Files/Pods-SwiftUIMindBlowing/Pods-SwiftUIMindBlowing.release.xcconfig"; sourceTree = "<group>"; };
-		6D6FADD8287FAE15002D8FCE /* Tealeaf.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Tealeaf.xcodeproj; path = "../iOS-SDK_StandAlone/iOSSrc/Tealeaf/Tealeaf.xcodeproj"; sourceTree = "<group>"; };
+		6D6FAE222880F3CF002D8FCE /* Tealeaf.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Tealeaf.xcodeproj; path = "../ea_react_native_module_tealeaf_debug/iOS-SDK/iOSSrc/Tealeaf/Tealeaf.xcodeproj"; sourceTree = "<group>"; };
 		7F337C9124AEF68A004ED5CE /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		7FC5FD5F24B1FB2600BF4464 /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
 		7FC5FD6324B2046B00BF4464 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -375,6 +373,7 @@
 		7FC5FD6B24B2E79B00BF4464 /* AppStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStore.swift; sourceTree = "<group>"; };
 		7FC5FD6D24B2E7BA00BF4464 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		7FE01DAC24ADB4340001C2CB /* TwoEqualWidthColumnsExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoEqualWidthColumnsExampleView.swift; sourceTree = "<group>"; };
+		88ED5FCF811DEA8ADB36A42C /* Pods-SwiftUIMindBlowing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUIMindBlowing.debug.xcconfig"; path = "Target Support Files/Pods-SwiftUIMindBlowing/Pods-SwiftUIMindBlowing.debug.xcconfig"; sourceTree = "<group>"; };
 		9915305E2613EEBE0097630F /* MyApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyApplication.swift; sourceTree = "<group>"; };
 		991530612613EF570097630F /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		991530972613F2E60097630F /* SwiftUIMindBlowing-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftUIMindBlowing-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -395,7 +394,8 @@
 		999310EB270D451700F759A0 /* SwiftUIMindBlowingLinkLocalLib.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIMindBlowingLinkLocalLib.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		999310EC270D451700F759A0 /* SwiftUIMindBlowing-copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "SwiftUIMindBlowing-copy-Info.plist"; path = "/Users/ohernandez@us.ibm.com/git/github/SwiftUIMindBlowing 3/SwiftUIMindBlowing-copy-Info.plist"; sourceTree = "<absolute>"; };
 		99A21262261D014C00572036 /* TealeafLayoutConfig.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = TealeafLayoutConfig.json; sourceTree = "<group>"; };
-		E465620A62102B0C02447385 /* Pods_SwiftUIMindBlowing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftUIMindBlowing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A59EAAC9E1170C573AB2091B /* Pods-SwiftUIMindBlowing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUIMindBlowing.release.xcconfig"; path = "Target Support Files/Pods-SwiftUIMindBlowing/Pods-SwiftUIMindBlowing.release.xcconfig"; sourceTree = "<group>"; };
+		DB7C20ED9E3C09D1B0C8D88A /* Pods_SwiftUIMindBlowing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftUIMindBlowing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F60D9B7522C15EDD002891EE /* BlendModeExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlendModeExampleView.swift; sourceTree = "<group>"; };
 		F60D9B7922C161FA002891EE /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
 		F60D9B7B22C1662F002891EE /* KeyboardAwareExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardAwareExampleView.swift; sourceTree = "<group>"; };
@@ -526,7 +526,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76E6F43D27093A915BA6C1C2 /* Pods_SwiftUIMindBlowing.framework in Frameworks */,
+				2D0A3315D2F4014F9AE4145B /* Pods_SwiftUIMindBlowing.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -536,25 +536,25 @@
 		09F938854170AC4BBBC65B22 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				20AE31921CC2A23494ADB1EA /* Pods-SwiftUIMindBlowing.debug.xcconfig */,
-				5A99F82076C7B3F9A3FF6291 /* Pods-SwiftUIMindBlowing.release.xcconfig */,
+				88ED5FCF811DEA8ADB36A42C /* Pods-SwiftUIMindBlowing.debug.xcconfig */,
+				A59EAAC9E1170C573AB2091B /* Pods-SwiftUIMindBlowing.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		6D6FADD9287FAE15002D8FCE /* Products */ = {
+		6D6FAE232880F3CF002D8FCE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6D6FADEC287FAE15002D8FCE /* libTealeaf.a */,
-				6D6FADEE287FAE15002D8FCE /* Tealeaf.framework */,
-				6D6FADF0287FAE15002D8FCE /* libTealeafReactNative.a */,
-				6D6FADF2287FAE15002D8FCE /* TealeafReactNative.framework */,
-				6D6FADF4287FAE15002D8FCE /* TealeafTests.xctest */,
-				6D6FADF6287FAE15002D8FCE /* XCTealeafTests.xctest */,
-				6D6FADF8287FAE15002D8FCE /* XCTealeafReactNativeTests.xctest */,
-				6D6FADFA287FAE15002D8FCE /* TealeafTestApp.app */,
-				6D6FADFC287FAE15002D8FCE /* XCTealeafTestApp.app */,
-				6D6FADFE287FAE15002D8FCE /* XCTealeafReactNativeTestApp.app */,
+				6D6FAE362880F3CF002D8FCE /* libTealeaf.a */,
+				6D6FAE382880F3CF002D8FCE /* Tealeaf.framework */,
+				6D6FAE3A2880F3CF002D8FCE /* libTealeafReactNative.a */,
+				6D6FAE3C2880F3CF002D8FCE /* TealeafReactNative.framework */,
+				6D6FAE3E2880F3CF002D8FCE /* TealeafTests.xctest */,
+				6D6FAE402880F3CF002D8FCE /* XCTealeafTests.xctest */,
+				6D6FAE422880F3CF002D8FCE /* XCTealeafReactNativeTests.xctest */,
+				6D6FAE442880F3CF002D8FCE /* TealeafTestApp.app */,
+				6D6FAE462880F3CF002D8FCE /* XCTealeafTestApp.app */,
+				6D6FAE482880F3CF002D8FCE /* XCTealeafReactNativeTestApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1299,8 +1299,8 @@
 		FBE3E19E1B5E1849C5DB8CAD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6D6FADD8287FAE15002D8FCE /* Tealeaf.xcodeproj */,
-				E465620A62102B0C02447385 /* Pods_SwiftUIMindBlowing.framework */,
+				6D6FAE222880F3CF002D8FCE /* Tealeaf.xcodeproj */,
+				DB7C20ED9E3C09D1B0C8D88A /* Pods_SwiftUIMindBlowing.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -1319,7 +1319,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				6D6FAE042880D5C7002D8FCE /* PBXTargetDependency */,
+				6D6FAE512880F42D002D8FCE /* PBXTargetDependency */,
 			);
 			name = SwiftUIMindBlowingLinkLocalLib;
 			productName = SwiftUICookbook;
@@ -1330,13 +1330,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F6F47C9322BABEF8009E3C48 /* Build configuration list for PBXNativeTarget "SwiftUIMindBlowing" */;
 			buildPhases = (
-				D58FF1D589F4EDAE18ABC62E /* [CP] Check Pods Manifest.lock */,
+				A5B31219193AB06305FFCDD4 /* [CP] Check Pods Manifest.lock */,
 				99A2126A261D020100572036 /* Run Script - Update TealeafLayoutConfig.json */,
 				F6F47C7B22BABEF7009E3C48 /* Sources */,
 				F6F47C7C22BABEF7009E3C48 /* Frameworks */,
 				F6F47C7D22BABEF7009E3C48 /* Resources */,
-				EBD3E411C1578184DD9249DD /* [CP] Embed Pods Frameworks */,
-				5FA06F63910809AD6175C416 /* [CP] Copy Pods Resources */,
+				5C334ED1E8692D377AA19181 /* [CP] Embed Pods Frameworks */,
+				40A1557C05391122DE4C779A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1375,8 +1375,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 6D6FADD9287FAE15002D8FCE /* Products */;
-					ProjectRef = 6D6FADD8287FAE15002D8FCE /* Tealeaf.xcodeproj */;
+					ProductGroup = 6D6FAE232880F3CF002D8FCE /* Products */;
+					ProjectRef = 6D6FAE222880F3CF002D8FCE /* Tealeaf.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -1388,74 +1388,74 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		6D6FADEC287FAE15002D8FCE /* libTealeaf.a */ = {
+		6D6FAE362880F3CF002D8FCE /* libTealeaf.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libTealeaf.a;
-			remoteRef = 6D6FADEB287FAE15002D8FCE /* PBXContainerItemProxy */;
+			remoteRef = 6D6FAE352880F3CF002D8FCE /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		6D6FADEE287FAE15002D8FCE /* Tealeaf.framework */ = {
+		6D6FAE382880F3CF002D8FCE /* Tealeaf.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = Tealeaf.framework;
-			remoteRef = 6D6FADED287FAE15002D8FCE /* PBXContainerItemProxy */;
+			remoteRef = 6D6FAE372880F3CF002D8FCE /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		6D6FADF0287FAE15002D8FCE /* libTealeafReactNative.a */ = {
+		6D6FAE3A2880F3CF002D8FCE /* libTealeafReactNative.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libTealeafReactNative.a;
-			remoteRef = 6D6FADEF287FAE15002D8FCE /* PBXContainerItemProxy */;
+			remoteRef = 6D6FAE392880F3CF002D8FCE /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		6D6FADF2287FAE15002D8FCE /* TealeafReactNative.framework */ = {
+		6D6FAE3C2880F3CF002D8FCE /* TealeafReactNative.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = TealeafReactNative.framework;
-			remoteRef = 6D6FADF1287FAE15002D8FCE /* PBXContainerItemProxy */;
+			remoteRef = 6D6FAE3B2880F3CF002D8FCE /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		6D6FADF4287FAE15002D8FCE /* TealeafTests.xctest */ = {
+		6D6FAE3E2880F3CF002D8FCE /* TealeafTests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = TealeafTests.xctest;
-			remoteRef = 6D6FADF3287FAE15002D8FCE /* PBXContainerItemProxy */;
+			remoteRef = 6D6FAE3D2880F3CF002D8FCE /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		6D6FADF6287FAE15002D8FCE /* XCTealeafTests.xctest */ = {
+		6D6FAE402880F3CF002D8FCE /* XCTealeafTests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = XCTealeafTests.xctest;
-			remoteRef = 6D6FADF5287FAE15002D8FCE /* PBXContainerItemProxy */;
+			remoteRef = 6D6FAE3F2880F3CF002D8FCE /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		6D6FADF8287FAE15002D8FCE /* XCTealeafReactNativeTests.xctest */ = {
+		6D6FAE422880F3CF002D8FCE /* XCTealeafReactNativeTests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = XCTealeafReactNativeTests.xctest;
-			remoteRef = 6D6FADF7287FAE15002D8FCE /* PBXContainerItemProxy */;
+			remoteRef = 6D6FAE412880F3CF002D8FCE /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		6D6FADFA287FAE15002D8FCE /* TealeafTestApp.app */ = {
+		6D6FAE442880F3CF002D8FCE /* TealeafTestApp.app */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.application;
 			path = TealeafTestApp.app;
-			remoteRef = 6D6FADF9287FAE15002D8FCE /* PBXContainerItemProxy */;
+			remoteRef = 6D6FAE432880F3CF002D8FCE /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		6D6FADFC287FAE15002D8FCE /* XCTealeafTestApp.app */ = {
+		6D6FAE462880F3CF002D8FCE /* XCTealeafTestApp.app */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.application;
 			path = XCTealeafTestApp.app;
-			remoteRef = 6D6FADFB287FAE15002D8FCE /* PBXContainerItemProxy */;
+			remoteRef = 6D6FAE452880F3CF002D8FCE /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		6D6FADFE287FAE15002D8FCE /* XCTealeafReactNativeTestApp.app */ = {
+		6D6FAE482880F3CF002D8FCE /* XCTealeafReactNativeTestApp.app */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.application;
 			path = XCTealeafReactNativeTestApp.app;
-			remoteRef = 6D6FADFD287FAE15002D8FCE /* PBXContainerItemProxy */;
+			remoteRef = 6D6FAE472880F3CF002D8FCE /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -1490,7 +1490,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		5FA06F63910809AD6175C416 /* [CP] Copy Pods Resources */ = {
+		40A1557C05391122DE4C779A /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1505,6 +1505,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftUIMindBlowing/Pods-SwiftUIMindBlowing-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C334ED1E8692D377AA19181 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftUIMindBlowing/Pods-SwiftUIMindBlowing-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftUIMindBlowing/Pods-SwiftUIMindBlowing-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftUIMindBlowing/Pods-SwiftUIMindBlowing-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		99A2126A261D020100572036 /* Run Script - Update TealeafLayoutConfig.json */ = {
@@ -1525,7 +1542,7 @@
 			shellPath = /bin/sh;
 			shellScript = "# Since pod has default layout, need to replace it with correct values for this application.\necho \"Update TealeafLayoutConfig.json from podfile download.\"\ncp -f \"${PROJECT_DIR}/PatchTealeafSDK/TealeafLayoutConfig.json\" \"${PODS_ROOT}/TealeafDebug/SDKs/iOS/Debug/TLFResources.bundle/TealeafLayoutConfig.json\"\necho \"Update TealeafAdvancedConfig.json from podfile download.\"\nsed -i \"\" 's/\\\"RemoveSwiftUIDuplicates\\\"\\: true/\\\"RemoveSwiftUIDuplicates\\\"\\: false/' \"${PODS_ROOT}/TealeafDebug/SDKs/iOS/Debug/TLFResources.bundle/TealeafAdvancedConfig.json\"\nsed -i \"\" 's/\\\"LogFullRequestResponsePayloads\\\"\\: false/\\\"LogFullRequestResponsePayloads\\\"\\: true/' \"${PODS_ROOT}/TealeafDebug/SDKs/iOS/Debug/TLFResources.bundle/TealeafAdvancedConfig.json\"\n";
 		};
-		D58FF1D589F4EDAE18ABC62E /* [CP] Check Pods Manifest.lock */ = {
+		A5B31219193AB06305FFCDD4 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1545,23 +1562,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		EBD3E411C1578184DD9249DD /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SwiftUIMindBlowing/Pods-SwiftUIMindBlowing-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SwiftUIMindBlowing/Pods-SwiftUIMindBlowing-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftUIMindBlowing/Pods-SwiftUIMindBlowing-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -1846,10 +1846,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		6D6FAE042880D5C7002D8FCE /* PBXTargetDependency */ = {
+		6D6FAE512880F42D002D8FCE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = XCTealeaf;
-			targetProxy = 6D6FAE032880D5C7002D8FCE /* PBXContainerItemProxy */;
+			targetProxy = 6D6FAE502880F42D002D8FCE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -2032,7 +2032,7 @@
 		};
 		F6F47C9422BABEF8009E3C48 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 20AE31921CC2A23494ADB1EA /* Pods-SwiftUIMindBlowing.debug.xcconfig */;
+			baseConfigurationReference = 88ED5FCF811DEA8ADB36A42C /* Pods-SwiftUIMindBlowing.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Apple Development";
@@ -2056,7 +2056,7 @@
 		};
 		F6F47C9522BABEF8009E3C48 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5A99F82076C7B3F9A3FF6291 /* Pods-SwiftUIMindBlowing.release.xcconfig */;
+			baseConfigurationReference = A59EAAC9E1170C573AB2091B /* Pods-SwiftUIMindBlowing.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Apple Development";
