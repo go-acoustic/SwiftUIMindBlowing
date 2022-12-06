@@ -23,7 +23,7 @@ struct ButtonExampleDemoView: View {
                 print("Button clicked")
             }) {
                 Text("This button is disabled")
-            }.disabled(true)
+            }.disabled(true).accessibilityLabel("ButtonLabel1").accessibilityIdentifier("ButtonId1")
 
             Divider()
         }

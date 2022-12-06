@@ -8,6 +8,31 @@
 
 /* Begin PBXBuildFile section */
 		2D0A3315D2F4014F9AE4145B /* Pods_SwiftUIMindBlowing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB7C20ED9E3C09D1B0C8D88A /* Pods_SwiftUIMindBlowing.framework */; };
+		6D1181F528D2517300793D70 /* TLFResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6D1181F428D2517300793D70 /* TLFResources.bundle */; };
+		6D11822A28D2695D00793D70 /* Tealeaf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D11820F28D253C100793D70 /* Tealeaf.framework */; };
+		6D19F4F32926F0350082F42C /* TLAssertUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D19F4F22926F0350082F42C /* TLAssertUtil.swift */; };
+		6D19F4F42926F0350082F42C /* TLAssertUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D19F4F22926F0350082F42C /* TLAssertUtil.swift */; };
+		6D19F57B293964360082F42C /* XCFrameworkExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D19F5712939629A0082F42C /* XCFrameworkExample.framework */; };
+		6D19F5BF293ED1170082F42C /* AssertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D19F5BE293ED1170082F42C /* AssertView.swift */; };
+		6D19F5C0293ED1170082F42C /* AssertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D19F5BE293ED1170082F42C /* AssertView.swift */; };
+		6D19F5C2293ED1540082F42C /* PreconditionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D19F5C1293ED1540082F42C /* PreconditionView.swift */; };
+		6D19F5C3293ED1540082F42C /* PreconditionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D19F5C1293ED1540082F42C /* PreconditionView.swift */; };
+		6D19F5C5293ED16D0082F42C /* AssertionFailureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D19F5C4293ED16C0082F42C /* AssertionFailureView.swift */; };
+		6D19F5C6293ED16D0082F42C /* AssertionFailureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D19F5C4293ED16C0082F42C /* AssertionFailureView.swift */; };
+		6D19F5C8293ED18D0082F42C /* PreconditionFailureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D19F5C7293ED18D0082F42C /* PreconditionFailureView.swift */; };
+		6D19F5C9293ED18D0082F42C /* PreconditionFailureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D19F5C7293ED18D0082F42C /* PreconditionFailureView.swift */; };
+		6D19F5CB293ED1C90082F42C /* FatalErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D19F5CA293ED1C90082F42C /* FatalErrorView.swift */; };
+		6D19F5CC293ED1C90082F42C /* FatalErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D19F5CA293ED1C90082F42C /* FatalErrorView.swift */; };
+		6D19F5CE293ED3D00082F42C /* AssertDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D19F5CD293ED3D00082F42C /* AssertDemoView.swift */; };
+		6D19F5CF293ED3D00082F42C /* AssertDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D19F5CD293ED3D00082F42C /* AssertDemoView.swift */; };
+		6D19F5D1293ED3F00082F42C /* PreconditionDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D19F5D0293ED3F00082F42C /* PreconditionDemoView.swift */; };
+		6D19F5D2293ED3F00082F42C /* PreconditionDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D19F5D0293ED3F00082F42C /* PreconditionDemoView.swift */; };
+		6D19F5D4293ED41D0082F42C /* AssertionFailureDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D19F5D3293ED41D0082F42C /* AssertionFailureDemoView.swift */; };
+		6D19F5D5293ED41D0082F42C /* AssertionFailureDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D19F5D3293ED41D0082F42C /* AssertionFailureDemoView.swift */; };
+		6D19F5D7293ED43C0082F42C /* PreconditionFailureDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D19F5D6293ED43C0082F42C /* PreconditionFailureDemoView.swift */; };
+		6D19F5D8293ED43C0082F42C /* PreconditionFailureDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D19F5D6293ED43C0082F42C /* PreconditionFailureDemoView.swift */; };
+		6D19F5DA293ED4A10082F42C /* FatalErrorDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D19F5D9293ED4A10082F42C /* FatalErrorDemoView.swift */; };
+		6D19F5DB293ED4A10082F42C /* FatalErrorDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D19F5D9293ED4A10082F42C /* FatalErrorDemoView.swift */; };
 		6D6FAE152880D6D0002D8FCE /* URLSessionDelegateGetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99372B8028171BB300612DE3 /* URLSessionDelegateGetView.swift */; };
 		6D6FAE162880DF07002D8FCE /* URLSessionDelegateGetDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99372B8228171BC900612DE3 /* URLSessionDelegateGetDemoView.swift */; };
 		6D6FAE172880DF07002D8FCE /* URLSessionDelegateUploadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99372B9E28175D2700612DE3 /* URLSessionDelegateUploadView.swift */; };
@@ -285,87 +310,114 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		6D6FAE352880F3CF002D8FCE /* PBXContainerItemProxy */ = {
+		6D11820C28D253C100793D70 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 6D6FAE222880F3CF002D8FCE /* Tealeaf.xcodeproj */;
+			containerPortal = 6D1181F628D253C100793D70 /* Tealeaf.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 66FD56BA1A3A4BD600E3827C;
 			remoteInfo = Tealeaf;
 		};
-		6D6FAE372880F3CF002D8FCE /* PBXContainerItemProxy */ = {
+		6D11820E28D253C100793D70 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 6D6FAE222880F3CF002D8FCE /* Tealeaf.xcodeproj */;
+			containerPortal = 6D1181F628D253C100793D70 /* Tealeaf.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 99C6CC5A25CB9FF5004298D8;
 			remoteInfo = XCTealeaf;
 		};
-		6D6FAE392880F3CF002D8FCE /* PBXContainerItemProxy */ = {
+		6D11821028D253C100793D70 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 6D6FAE222880F3CF002D8FCE /* Tealeaf.xcodeproj */;
+			containerPortal = 6D1181F628D253C100793D70 /* Tealeaf.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 99610C0A20A10F3100F412B8;
 			remoteInfo = TealeafReactNative;
 		};
-		6D6FAE3B2880F3CF002D8FCE /* PBXContainerItemProxy */ = {
+		6D11821228D253C100793D70 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 6D6FAE222880F3CF002D8FCE /* Tealeaf.xcodeproj */;
+			containerPortal = 6D1181F628D253C100793D70 /* Tealeaf.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 99865E0F25E0916100B905BE;
 			remoteInfo = XCTealeafReactNative;
 		};
-		6D6FAE3D2880F3CF002D8FCE /* PBXContainerItemProxy */ = {
+		6D11821428D253C100793D70 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 6D6FAE222880F3CF002D8FCE /* Tealeaf.xcodeproj */;
+			containerPortal = 6D1181F628D253C100793D70 /* Tealeaf.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 66FD56C51A3A4BD600E3827C;
 			remoteInfo = TealeafTests;
 		};
-		6D6FAE3F2880F3CF002D8FCE /* PBXContainerItemProxy */ = {
+		6D11821628D253C100793D70 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 6D6FAE222880F3CF002D8FCE /* Tealeaf.xcodeproj */;
+			containerPortal = 6D1181F628D253C100793D70 /* Tealeaf.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 992D4ABB25E06AED00476193;
 			remoteInfo = XCTealeafTests;
 		};
-		6D6FAE412880F3CF002D8FCE /* PBXContainerItemProxy */ = {
+		6D11821828D253C100793D70 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 6D6FAE222880F3CF002D8FCE /* Tealeaf.xcodeproj */;
+			containerPortal = 6D1181F628D253C100793D70 /* Tealeaf.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 990B8E8C27E56383000EC5FA;
 			remoteInfo = XCTealeafReactNativeTests;
 		};
-		6D6FAE432880F3CF002D8FCE /* PBXContainerItemProxy */ = {
+		6D11821A28D253C100793D70 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 6D6FAE222880F3CF002D8FCE /* Tealeaf.xcodeproj */;
+			containerPortal = 6D1181F628D253C100793D70 /* Tealeaf.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 66FD56E01A3A4F7C00E3827C;
 			remoteInfo = TealeafTestApp;
 		};
-		6D6FAE452880F3CF002D8FCE /* PBXContainerItemProxy */ = {
+		6D11821C28D253C100793D70 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 6D6FAE222880F3CF002D8FCE /* Tealeaf.xcodeproj */;
+			containerPortal = 6D1181F628D253C100793D70 /* Tealeaf.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 992D4B0125E06B0700476193;
 			remoteInfo = XCTealeafTestApp;
 		};
-		6D6FAE472880F3CF002D8FCE /* PBXContainerItemProxy */ = {
+		6D11821E28D253C100793D70 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 6D6FAE222880F3CF002D8FCE /* Tealeaf.xcodeproj */;
+			containerPortal = 6D1181F628D253C100793D70 /* Tealeaf.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 990B8E0727E54D6C000EC5FA;
 			remoteInfo = XCTealeafReactNativeTestApp;
 		};
-		6D6FAE502880F42D002D8FCE /* PBXContainerItemProxy */ = {
+		6D11822828D2679300793D70 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 6D6FAE222880F3CF002D8FCE /* Tealeaf.xcodeproj */;
+			containerPortal = 6D1181F628D253C100793D70 /* Tealeaf.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = 99C6CC5925CB9FF5004298D8;
 			remoteInfo = XCTealeaf;
 		};
+		6D19F5702939629A0082F42C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D19F55B2939629A0082F42C /* XCFrameworkExample.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5B77428623145D8400C02104;
+			remoteInfo = "XCFrameworkExample-iOS";
+		};
+		6D19F5722939629A0082F42C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6D19F55B2939629A0082F42C /* XCFrameworkExample.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5B77427223144AC800C02104;
+			remoteInfo = "XCFrameworkExample-macOS";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6D6FAE222880F3CF002D8FCE /* Tealeaf.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Tealeaf.xcodeproj; path = "../ea_react_native_module_tealeaf_debug/iOS-SDK/iOSSrc/Tealeaf/Tealeaf.xcodeproj"; sourceTree = "<group>"; };
+		6D1181F428D2517300793D70 /* TLFResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = TLFResources.bundle; path = "../ea_react_native_module_tealeaf_debug/iOS-SDK/iOSSrc/Tealeaf/Tealeaf/TLFResources.bundle"; sourceTree = "<group>"; };
+		6D1181F628D253C100793D70 /* Tealeaf.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Tealeaf.xcodeproj; path = "../iOS-SDK/iOSSrc/Tealeaf/Tealeaf.xcodeproj"; sourceTree = "<group>"; };
+		6D19F4F22926F0350082F42C /* TLAssertUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLAssertUtil.swift; sourceTree = "<group>"; };
+		6D19F55B2939629A0082F42C /* XCFrameworkExample.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = XCFrameworkExample.xcodeproj; path = "../../../Downloads/XCFrameworkExample-master/XCFrameworkExample.xcodeproj"; sourceTree = "<group>"; };
+		6D19F5BE293ED1170082F42C /* AssertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssertView.swift; sourceTree = "<group>"; };
+		6D19F5C1293ED1540082F42C /* PreconditionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreconditionView.swift; sourceTree = "<group>"; };
+		6D19F5C4293ED16C0082F42C /* AssertionFailureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssertionFailureView.swift; sourceTree = "<group>"; };
+		6D19F5C7293ED18D0082F42C /* PreconditionFailureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreconditionFailureView.swift; sourceTree = "<group>"; };
+		6D19F5CA293ED1C90082F42C /* FatalErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FatalErrorView.swift; sourceTree = "<group>"; };
+		6D19F5CD293ED3D00082F42C /* AssertDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssertDemoView.swift; sourceTree = "<group>"; };
+		6D19F5D0293ED3F00082F42C /* PreconditionDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreconditionDemoView.swift; sourceTree = "<group>"; };
+		6D19F5D3293ED41D0082F42C /* AssertionFailureDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssertionFailureDemoView.swift; sourceTree = "<group>"; };
+		6D19F5D6293ED43C0082F42C /* PreconditionFailureDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreconditionFailureDemoView.swift; sourceTree = "<group>"; };
+		6D19F5D9293ED4A10082F42C /* FatalErrorDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FatalErrorDemoView.swift; sourceTree = "<group>"; };
 		7F337C9124AEF68A004ED5CE /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		7FC5FD5F24B1FB2600BF4464 /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
 		7FC5FD6324B2046B00BF4464 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -519,6 +571,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D19F57B293964360082F42C /* XCFrameworkExample.framework in Frameworks */,
+				6D11822A28D2695D00793D70 /* Tealeaf.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -542,21 +596,47 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		6D6FAE232880F3CF002D8FCE /* Products */ = {
+		6D1181F728D253C100793D70 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6D6FAE362880F3CF002D8FCE /* libTealeaf.a */,
-				6D6FAE382880F3CF002D8FCE /* Tealeaf.framework */,
-				6D6FAE3A2880F3CF002D8FCE /* libTealeafReactNative.a */,
-				6D6FAE3C2880F3CF002D8FCE /* TealeafReactNative.framework */,
-				6D6FAE3E2880F3CF002D8FCE /* TealeafTests.xctest */,
-				6D6FAE402880F3CF002D8FCE /* XCTealeafTests.xctest */,
-				6D6FAE422880F3CF002D8FCE /* XCTealeafReactNativeTests.xctest */,
-				6D6FAE442880F3CF002D8FCE /* TealeafTestApp.app */,
-				6D6FAE462880F3CF002D8FCE /* XCTealeafTestApp.app */,
-				6D6FAE482880F3CF002D8FCE /* XCTealeafReactNativeTestApp.app */,
+				6D11820D28D253C100793D70 /* libTealeaf.a */,
+				6D11820F28D253C100793D70 /* Tealeaf.framework */,
+				6D11821128D253C100793D70 /* libTealeafReactNative.a */,
+				6D11821328D253C100793D70 /* TealeafReactNative.framework */,
+				6D11821528D253C100793D70 /* TealeafTests.xctest */,
+				6D11821728D253C100793D70 /* XCTealeafTests.xctest */,
+				6D11821928D253C100793D70 /* XCTealeafReactNativeTests.xctest */,
+				6D11821B28D253C100793D70 /* TealeafTestApp.app */,
+				6D11821D28D253C100793D70 /* XCTealeafTestApp.app */,
+				6D11821F28D253C100793D70 /* XCTealeafReactNativeTestApp.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		6D19F55C2939629A0082F42C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D19F5712939629A0082F42C /* XCFrameworkExample.framework */,
+				6D19F5732939629A0082F42C /* XCFrameworkExample.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D19F5AC293ED07F0082F42C /* Error */ = {
+			isa = PBXGroup;
+			children = (
+				6D19F5BE293ED1170082F42C /* AssertView.swift */,
+				6D19F5CD293ED3D00082F42C /* AssertDemoView.swift */,
+				6D19F5C1293ED1540082F42C /* PreconditionView.swift */,
+				6D19F5D0293ED3F00082F42C /* PreconditionDemoView.swift */,
+				6D19F5C4293ED16C0082F42C /* AssertionFailureView.swift */,
+				6D19F5D3293ED41D0082F42C /* AssertionFailureDemoView.swift */,
+				6D19F5C7293ED18D0082F42C /* PreconditionFailureView.swift */,
+				6D19F5D6293ED43C0082F42C /* PreconditionFailureDemoView.swift */,
+				6D19F5CA293ED1C90082F42C /* FatalErrorView.swift */,
+				6D19F5D9293ED4A10082F42C /* FatalErrorDemoView.swift */,
+			);
+			path = Error;
 			sourceTree = "<group>";
 		};
 		7FC5FD5E24B1FB1900BF4464 /* Extensions */ = {
@@ -740,6 +820,7 @@
 		F67794A822BE3F7C005F1D0C /* ViewsAndControls */ = {
 			isa = PBXGroup;
 			children = (
+				6D19F5AC293ED07F0082F42C /* Error */,
 				99931059270D32A800F759A0 /* ApiCall */,
 				99372B6B28171B7600612DE3 /* URLSessionDelegateGet */,
 				99372B9B28175CDE00612DE3 /* URLSessionDelegateUpload */,
@@ -1229,6 +1310,7 @@
 		F6F47C7622BABEF7009E3C48 = {
 			isa = PBXGroup;
 			children = (
+				6D1181F428D2517300793D70 /* TLFResources.bundle */,
 				99A21261261D00FC00572036 /* PatchTealeafSDK */,
 				F6F92B2323618BF7000CCC4D /* README.md */,
 				F6F47C8122BABEF7009E3C48 /* Sources */,
@@ -1265,6 +1347,7 @@
 				7F337C9124AEF68A004ED5CE /* Constants.swift */,
 				9915305E2613EEBE0097630F /* MyApplication.swift */,
 				991530612613EF570097630F /* main.swift */,
+				6D19F4F22926F0350082F42C /* TLAssertUtil.swift */,
 			);
 			name = Sources;
 			sourceTree = "<group>";
@@ -1299,7 +1382,8 @@
 		FBE3E19E1B5E1849C5DB8CAD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6D6FAE222880F3CF002D8FCE /* Tealeaf.xcodeproj */,
+				6D19F55B2939629A0082F42C /* XCFrameworkExample.xcodeproj */,
+				6D1181F628D253C100793D70 /* Tealeaf.xcodeproj */,
 				DB7C20ED9E3C09D1B0C8D88A /* Pods_SwiftUIMindBlowing.framework */,
 			);
 			name = Frameworks;
@@ -1319,7 +1403,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				6D6FAE512880F42D002D8FCE /* PBXTargetDependency */,
+				6D11822928D2679300793D70 /* PBXTargetDependency */,
 			);
 			name = SwiftUIMindBlowingLinkLocalLib;
 			productName = SwiftUICookbook;
@@ -1375,8 +1459,12 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 6D6FAE232880F3CF002D8FCE /* Products */;
-					ProjectRef = 6D6FAE222880F3CF002D8FCE /* Tealeaf.xcodeproj */;
+					ProductGroup = 6D1181F728D253C100793D70 /* Products */;
+					ProjectRef = 6D1181F628D253C100793D70 /* Tealeaf.xcodeproj */;
+				},
+				{
+					ProductGroup = 6D19F55C2939629A0082F42C /* Products */;
+					ProjectRef = 6D19F55B2939629A0082F42C /* XCFrameworkExample.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -1388,74 +1476,88 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		6D6FAE362880F3CF002D8FCE /* libTealeaf.a */ = {
+		6D11820D28D253C100793D70 /* libTealeaf.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libTealeaf.a;
-			remoteRef = 6D6FAE352880F3CF002D8FCE /* PBXContainerItemProxy */;
+			remoteRef = 6D11820C28D253C100793D70 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		6D6FAE382880F3CF002D8FCE /* Tealeaf.framework */ = {
+		6D11820F28D253C100793D70 /* Tealeaf.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = Tealeaf.framework;
-			remoteRef = 6D6FAE372880F3CF002D8FCE /* PBXContainerItemProxy */;
+			remoteRef = 6D11820E28D253C100793D70 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		6D6FAE3A2880F3CF002D8FCE /* libTealeafReactNative.a */ = {
+		6D11821128D253C100793D70 /* libTealeafReactNative.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libTealeafReactNative.a;
-			remoteRef = 6D6FAE392880F3CF002D8FCE /* PBXContainerItemProxy */;
+			remoteRef = 6D11821028D253C100793D70 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		6D6FAE3C2880F3CF002D8FCE /* TealeafReactNative.framework */ = {
+		6D11821328D253C100793D70 /* TealeafReactNative.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = TealeafReactNative.framework;
-			remoteRef = 6D6FAE3B2880F3CF002D8FCE /* PBXContainerItemProxy */;
+			remoteRef = 6D11821228D253C100793D70 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		6D6FAE3E2880F3CF002D8FCE /* TealeafTests.xctest */ = {
+		6D11821528D253C100793D70 /* TealeafTests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = TealeafTests.xctest;
-			remoteRef = 6D6FAE3D2880F3CF002D8FCE /* PBXContainerItemProxy */;
+			remoteRef = 6D11821428D253C100793D70 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		6D6FAE402880F3CF002D8FCE /* XCTealeafTests.xctest */ = {
+		6D11821728D253C100793D70 /* XCTealeafTests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = XCTealeafTests.xctest;
-			remoteRef = 6D6FAE3F2880F3CF002D8FCE /* PBXContainerItemProxy */;
+			remoteRef = 6D11821628D253C100793D70 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		6D6FAE422880F3CF002D8FCE /* XCTealeafReactNativeTests.xctest */ = {
+		6D11821928D253C100793D70 /* XCTealeafReactNativeTests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = XCTealeafReactNativeTests.xctest;
-			remoteRef = 6D6FAE412880F3CF002D8FCE /* PBXContainerItemProxy */;
+			remoteRef = 6D11821828D253C100793D70 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		6D6FAE442880F3CF002D8FCE /* TealeafTestApp.app */ = {
+		6D11821B28D253C100793D70 /* TealeafTestApp.app */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.application;
 			path = TealeafTestApp.app;
-			remoteRef = 6D6FAE432880F3CF002D8FCE /* PBXContainerItemProxy */;
+			remoteRef = 6D11821A28D253C100793D70 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		6D6FAE462880F3CF002D8FCE /* XCTealeafTestApp.app */ = {
+		6D11821D28D253C100793D70 /* XCTealeafTestApp.app */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.application;
 			path = XCTealeafTestApp.app;
-			remoteRef = 6D6FAE452880F3CF002D8FCE /* PBXContainerItemProxy */;
+			remoteRef = 6D11821C28D253C100793D70 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		6D6FAE482880F3CF002D8FCE /* XCTealeafReactNativeTestApp.app */ = {
+		6D11821F28D253C100793D70 /* XCTealeafReactNativeTestApp.app */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.application;
 			path = XCTealeafReactNativeTestApp.app;
-			remoteRef = 6D6FAE472880F3CF002D8FCE /* PBXContainerItemProxy */;
+			remoteRef = 6D11821E28D253C100793D70 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6D19F5712939629A0082F42C /* XCFrameworkExample.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = XCFrameworkExample.framework;
+			remoteRef = 6D19F5702939629A0082F42C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6D19F5732939629A0082F42C /* XCFrameworkExample.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = XCFrameworkExample.framework;
+			remoteRef = 6D19F5722939629A0082F42C /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -1470,6 +1572,7 @@
 				999310E2270D451700F759A0 /* TealeafLayoutConfig.json in Resources */,
 				999310E3270D451700F759A0 /* Preview Assets.xcassets in Resources */,
 				999310E4270D451700F759A0 /* README.md in Resources */,
+				6D1181F528D2517300793D70 /* TLFResources.bundle in Resources */,
 				999310E5270D451700F759A0 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1572,15 +1675,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				6D6FAE162880DF07002D8FCE /* URLSessionDelegateGetDemoView.swift in Sources */,
+				6D19F4F42926F0350082F42C /* TLAssertUtil.swift in Sources */,
 				6D6FAE172880DF07002D8FCE /* URLSessionDelegateUploadView.swift in Sources */,
 				6D6FAE182880DF07002D8FCE /* URLSessionDelegateUploadDemoView.swift in Sources */,
 				6D6FAE192880DF07002D8FCE /* URLSessionDelegateTest.swift in Sources */,
 				6D6FAE1A2880DF07002D8FCE /* URLSessionDelegateRedirectView.swift in Sources */,
 				6D6FAE1B2880DF07002D8FCE /* URLSessionDelegateRedirectDemoView.swift in Sources */,
 				6D6FAE1C2880DF07002D8FCE /* URLSessionDelegateDownloadView.swift in Sources */,
+				6D19F5C3293ED1540082F42C /* PreconditionView.swift in Sources */,
 				6D6FAE1D2880DF07002D8FCE /* URLSessionDelegateDownloadDemoView.swift in Sources */,
 				99931063270D451700F759A0 /* MapKitExampleView.swift in Sources */,
 				99931064270D451700F759A0 /* DispatchTimerExampleView.swift in Sources */,
+				6D19F5D2293ED3F00082F42C /* PreconditionDemoView.swift in Sources */,
 				99931065270D451700F759A0 /* SecureFieldExampleView.swift in Sources */,
 				99931066270D451700F759A0 /* AutoFocusTextFieldView.swift in Sources */,
 				99931067270D451700F759A0 /* SegmentedControlExampleDemoView.swift in Sources */,
@@ -1617,8 +1723,10 @@
 				99931086270D451700F759A0 /* NavigationViewExampleView.swift in Sources */,
 				99931087270D451700F759A0 /* SFSafariViewControllerExampleView.swift in Sources */,
 				99931088270D451700F759A0 /* LongPressGestureExampleDemoView.swift in Sources */,
+				6D19F5C0293ED1170082F42C /* AssertView.swift in Sources */,
 				99931089270D451700F759A0 /* MoreContentView.swift in Sources */,
 				9993108A270D451700F759A0 /* SpacerExampleDemoView.swift in Sources */,
+				6D19F5CF293ED3D00082F42C /* AssertDemoView.swift in Sources */,
 				9993108B270D451700F759A0 /* SimpleCarouselView.swift in Sources */,
 				9993108C270D451700F759A0 /* ForEachExampleDemoView.swift in Sources */,
 				9993108D270D451700F759A0 /* View+Extensions.swift in Sources */,
@@ -1654,9 +1762,11 @@
 				999310AB270D451700F759A0 /* LinearGradientExampleView.swift in Sources */,
 				999310AC270D451700F759A0 /* ToggleExampleView.swift in Sources */,
 				999310AD270D451700F759A0 /* ZStackExampleView.swift in Sources */,
+				6D19F5CC293ED1C90082F42C /* FatalErrorView.swift in Sources */,
 				999310AE270D451700F759A0 /* TapGestureExampleDemoView.swift in Sources */,
 				999310AF270D451700F759A0 /* WKWebViewUI.swift in Sources */,
 				999310B0270D451700F759A0 /* ApiCallExampleDemoView.swift in Sources */,
+				6D19F5C9293ED18D0082F42C /* PreconditionFailureView.swift in Sources */,
 				999310B1270D451700F759A0 /* TwoEqualWidthColumnsExampleView.swift in Sources */,
 				999310B2270D451700F759A0 /* BlendModeExampleView.swift in Sources */,
 				999310B3270D451700F759A0 /* NavigationLinkExampleDemoView.swift in Sources */,
@@ -1667,6 +1777,7 @@
 				999310B8270D451700F759A0 /* TextFieldExampleDemoView.swift in Sources */,
 				999310B9270D451700F759A0 /* PickerExampleDemoView.swift in Sources */,
 				999310BA270D451700F759A0 /* ButtonExampleView.swift in Sources */,
+				6D19F5DB293ED4A10082F42C /* FatalErrorDemoView.swift in Sources */,
 				999310BB270D451700F759A0 /* HorizontalCollectionExampleView.swift in Sources */,
 				999310BC270D451700F759A0 /* FontExampleDemoView.swift in Sources */,
 				999310BD270D451700F759A0 /* ActionSheetExampleView.swift in Sources */,
@@ -1685,11 +1796,13 @@
 				999310CA270D451700F759A0 /* ScrollViewExampleDemoView.swift in Sources */,
 				999310CB270D451700F759A0 /* ScrollViewExampleView.swift in Sources */,
 				999310CC270D451700F759A0 /* TextExampleView.swift in Sources */,
+				6D19F5D5293ED41D0082F42C /* AssertionFailureDemoView.swift in Sources */,
 				999310CD270D451700F759A0 /* RotationEffectExampleView.swift in Sources */,
 				999310CE270D451700F759A0 /* SpacerExampleView.swift in Sources */,
 				999310CF270D451700F759A0 /* TextFieldsExampleDemoView.swift in Sources */,
 				999310D0270D451700F759A0 /* CircleExampleView.swift in Sources */,
 				999310D1270D451700F759A0 /* ExampleView.swift in Sources */,
+				6D19F5D8293ED43C0082F42C /* PreconditionFailureDemoView.swift in Sources */,
 				999310D2270D451700F759A0 /* ExampleCellView.swift in Sources */,
 				999310D3270D451700F759A0 /* HStackExampleView.swift in Sources */,
 				999310D4270D451700F759A0 /* DragGestureExampleView.swift in Sources */,
@@ -1701,6 +1814,7 @@
 				999310DA270D451700F759A0 /* SceneDelegate.swift in Sources */,
 				999310DB270D451700F759A0 /* ImageExampleView.swift in Sources */,
 				999310DC270D451700F759A0 /* DatePickerExampleView.swift in Sources */,
+				6D19F5C6293ED16D0082F42C /* AssertionFailureView.swift in Sources */,
 				6D6FAE152880D6D0002D8FCE /* URLSessionDelegateGetView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1710,15 +1824,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				F67794D022BE3F7C005F1D0C /* MapKitExampleView.swift in Sources */,
+				6D19F4F32926F0350082F42C /* TLAssertUtil.swift in Sources */,
 				F6F41F5822BED0B0004696C0 /* DispatchTimerExampleView.swift in Sources */,
 				F67794E122BE3F7C005F1D0C /* SecureFieldExampleView.swift in Sources */,
 				F695518123683E5F00B81712 /* AutoFocusTextFieldView.swift in Sources */,
 				F6ACE147236B783F00BFAB98 /* SegmentedControlExampleDemoView.swift in Sources */,
 				F69E4006236C83F300B44D67 /* RotationGestureExampleView.swift in Sources */,
 				F6E5A9D2236E241D00BC0852 /* BlendModeExampleDemoView.swift in Sources */,
+				6D19F5C2293ED1540082F42C /* PreconditionView.swift in Sources */,
 				F6E5A99E236DACD300BC0852 /* ListExampleDemoView.swift in Sources */,
 				99372B9D28175D1200612DE3 /* URLSessionDelegateUploadDemoView.swift in Sources */,
 				9993105B270D32E200F759A0 /* ApiCallExampleView.swift in Sources */,
+				6D19F5D1293ED3F00082F42C /* PreconditionDemoView.swift in Sources */,
 				9915305F2613EEBE0097630F /* MyApplication.swift in Sources */,
 				F679D071236C45A200C67666 /* LongPressGestureExampleView.swift in Sources */,
 				F67794F822BE3F7C005F1D0C /* SFSymbols.swift in Sources */,
@@ -1755,8 +1872,10 @@
 				F679D073236C481600C67666 /* LongPressGestureExampleDemoView.swift in Sources */,
 				F67794F522BE3F7C005F1D0C /* MoreContentView.swift in Sources */,
 				F6E5A9BF236DE8BD00BC0852 /* SpacerExampleDemoView.swift in Sources */,
+				6D19F5BF293ED1170082F42C /* AssertView.swift in Sources */,
 				F6F92B342362D509000CCC4D /* SimpleCarouselView.swift in Sources */,
 				F6E5A9B7236DE66700BC0852 /* ForEachExampleDemoView.swift in Sources */,
+				6D19F5CE293ED3D00082F42C /* AssertDemoView.swift in Sources */,
 				7FC5FD6024B1FB2600BF4464 /* View+Extensions.swift in Sources */,
 				99372BA128175E3800612DE3 /* URLSessionDelegateTest.swift in Sources */,
 				F67794F322BE3F7C005F1D0C /* ScaleEffectExampleView.swift in Sources */,
@@ -1792,9 +1911,11 @@
 				F67794E422BE3F7C005F1D0C /* ToggleExampleView.swift in Sources */,
 				F6E5A9A1236DAD4300BC0852 /* ZStackExampleView.swift in Sources */,
 				F6ACE17A236B999D00BFAB98 /* TapGestureExampleDemoView.swift in Sources */,
+				6D19F5CB293ED1C90082F42C /* FatalErrorView.swift in Sources */,
 				99372BA92817610300612DE3 /* URLSessionDelegateDownloadView.swift in Sources */,
 				F677948E22BE3F5D005F1D0C /* WKWebViewUI.swift in Sources */,
 				9993105D270D32FB00F759A0 /* ApiCallExampleDemoView.swift in Sources */,
+				6D19F5C8293ED18D0082F42C /* PreconditionFailureView.swift in Sources */,
 				7FE01DAD24ADB4340001C2CB /* TwoEqualWidthColumnsExampleView.swift in Sources */,
 				F60D9B7622C15EDD002891EE /* BlendModeExampleView.swift in Sources */,
 				F6ACE14F236B795E00BFAB98 /* NavigationLinkExampleDemoView.swift in Sources */,
@@ -1805,6 +1926,7 @@
 				F6ACE141236B77C300BFAB98 /* TextFieldExampleDemoView.swift in Sources */,
 				F6ACE164236B7BEA00BFAB98 /* PickerExampleDemoView.swift in Sources */,
 				F67794E922BE3F7C005F1D0C /* ButtonExampleView.swift in Sources */,
+				6D19F5DA293ED4A10082F42C /* FatalErrorDemoView.swift in Sources */,
 				F6F41F5C22BF86AF004696C0 /* HorizontalCollectionExampleView.swift in Sources */,
 				F6ACE143236B77EE00BFAB98 /* FontExampleDemoView.swift in Sources */,
 				F67794ED22BE3F7C005F1D0C /* ActionSheetExampleView.swift in Sources */,
@@ -1823,11 +1945,13 @@
 				F6E5A9AD236DB28B00BC0852 /* ScrollViewExampleDemoView.swift in Sources */,
 				F6E5A9AB236DB1EA00BC0852 /* ScrollViewExampleView.swift in Sources */,
 				F67794E622BE3F7C005F1D0C /* TextExampleView.swift in Sources */,
+				6D19F5D4293ED41D0082F42C /* AssertionFailureDemoView.swift in Sources */,
 				F67794F422BE3F7C005F1D0C /* RotationEffectExampleView.swift in Sources */,
 				F6E5A9BD236DE8B000BC0852 /* SpacerExampleView.swift in Sources */,
 				99931058270D2E6200F759A0 /* TextFieldsExampleDemoView.swift in Sources */,
 				F60ED6A72376C01000E3E3B9 /* CircleExampleView.swift in Sources */,
 				F677948F22BE3F5D005F1D0C /* ExampleView.swift in Sources */,
+				6D19F5D7293ED43C0082F42C /* PreconditionFailureDemoView.swift in Sources */,
 				F677949022BE3F5D005F1D0C /* ExampleCellView.swift in Sources */,
 				F67794EC22BE3F7C005F1D0C /* HStackExampleView.swift in Sources */,
 				F6B5DC73236C714E000D1EED /* DragGestureExampleView.swift in Sources */,
@@ -1839,6 +1963,7 @@
 				F6F92B292361AA82000CCC4D /* ReceiptVStackFullScreenView.swift in Sources */,
 				F6F47C8522BABEF7009E3C48 /* SceneDelegate.swift in Sources */,
 				F67794DD22BE3F7C005F1D0C /* ImageExampleView.swift in Sources */,
+				6D19F5C5293ED16D0082F42C /* AssertionFailureView.swift in Sources */,
 				F67794E322BE3F7C005F1D0C /* DatePickerExampleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1846,10 +1971,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		6D6FAE512880F42D002D8FCE /* PBXTargetDependency */ = {
+		6D11822928D2679300793D70 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = XCTealeaf;
-			targetProxy = 6D6FAE502880F42D002D8FCE /* PBXContainerItemProxy */;
+			targetProxy = 6D11822828D2679300793D70 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1881,6 +2006,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0.0;
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.aco.apps.SwiftUIMindBlowing;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1898,16 +2024,19 @@
 				DEVELOPMENT_ASSET_PATHS = "SwiftUIMindBlowing/Preview\\ Content";
 				DEVELOPMENT_TEAM = QXQ67VKX2B;
 				ENABLE_PREVIEWS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
 				INFOPLIST_FILE = "SwiftUIMindBlowing-copy-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0.0;
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.aco.apps.SwiftUIMindBlowing;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

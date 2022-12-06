@@ -10,6 +10,35 @@ struct BasicContentView: View {
         MainView(title: "Basic") {
             ModalPresenter() {
                 List {
+                    Section(header: Text("Errors and Exceptions")) {
+                        Group { // Group is used to overcome limitation of 10 Subviews in a ViewBuilder
+                            NavigationLink(destination: AssertView()) {
+                                ExampleCellView(
+                                    title: "Trigger Assert",
+                                    subtitle: "Call assert.")
+                            }
+                            NavigationLink(destination: PreconditionView()) {
+                                ExampleCellView(
+                                    title: "Trigger Precondition",
+                                    subtitle: "Call precondition.")
+                            }
+                            NavigationLink(destination: AssertionFailureView()) {
+                                ExampleCellView(
+                                    title: "Trigger AssertionFailure",
+                                    subtitle: "Call assertionFailure.")
+                            }
+                            NavigationLink(destination: PreconditionFailureView()) {
+                                ExampleCellView(
+                                    title: "Trigger PreconditionFailure",
+                                    subtitle: "Call preconditionFailure.")
+                            }
+                            NavigationLink(destination: FatalErrorView()) {
+                                ExampleCellView(
+                                    title: "Trigger FatalError",
+                                    subtitle: "Call fatalError.")
+                            }
+                        }
+                    }
                     Section(header: Text("Network Calls")) {
                         Group { // Group is used to overcome limitation of 10 Subviews in a ViewBuilder
                             NavigationLink(destination: ApiCallExampleView()) {
