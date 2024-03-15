@@ -22,7 +22,7 @@ struct URLSessionDelegateGetDemoView: View {
     var body: some View {
         VStack(alignment: .center) {
             Button(action: {
-                let test:URLSessionDelegateTest! = URLSessionDelegateTest(url: "https://api.github.com/users/acoustic-analytics/repos")
+                let test:URLSessionDelegateTest! = URLSessionDelegateTest(url: "https://api.github.com/users/go-acoustic/repos")
                 test.getData_dataTask_request_url()
             }) {
                 Text("GetData dataTask with request_url")
@@ -36,7 +36,7 @@ struct URLSessionDelegateGetDemoView: View {
             Divider()
 
             Button(action: {
-                let test:URLSessionDelegateTest! = URLSessionDelegateTest(url: "https://api.github.com/users/acoustic-analytics/repos")
+                let test:URLSessionDelegateTest! = URLSessionDelegateTest(url: "https://api.github.com/users/go-acoustic/repos")
                 test.getData_dataTask_request_url_completionHandler()
             }) {
                 Text("GetData dataTask with request_url_completionHandler")
@@ -50,7 +50,7 @@ struct URLSessionDelegateGetDemoView: View {
             Divider()
             
             Button(action: {
-                let test:URLSessionDelegateTest! = URLSessionDelegateTest(url: "https://api.github.com/users/acoustic-analytics/repos")
+                let test:URLSessionDelegateTest! = URLSessionDelegateTest(url: "https://api.github.com/users/go-acoustic/repos")
                 test.getData_dataTask_request_urlRequest()
             }) {
                 Text("GetData dataTask with request_urlRequest")
@@ -64,7 +64,7 @@ struct URLSessionDelegateGetDemoView: View {
             Divider()
             
             Button(action: {
-                let test:URLSessionDelegateTest! = URLSessionDelegateTest(url: "https://api.github.com/users/acoustic-analytics/repos")
+                let test:URLSessionDelegateTest! = URLSessionDelegateTest(url: "https://api.github.com/users/go-acoustic/repos")
                 test.getData_dataTask_request_urlRequest_completionHandler()
             }) {
                 Text("GetData dataTask with request_urlRequest_completionHandler")
