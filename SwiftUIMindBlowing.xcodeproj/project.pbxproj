@@ -3,11 +3,10 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2D0A3315D2F4014F9AE4145B /* Pods_SwiftUIMindBlowing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB7C20ED9E3C09D1B0C8D88A /* Pods_SwiftUIMindBlowing.framework */; };
 		6D1181F528D2517300793D70 /* TLFResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6D1181F428D2517300793D70 /* TLFResources.bundle */; };
 		6D11822A28D2695D00793D70 /* Tealeaf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D11820F28D253C100793D70 /* Tealeaf.framework */; };
 		6D19F4F32926F0350082F42C /* TLAssertUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D19F4F22926F0350082F42C /* TLAssertUtil.swift */; };
@@ -49,6 +48,7 @@
 		7FC5FD6C24B2E79B00BF4464 /* AppStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC5FD6B24B2E79B00BF4464 /* AppStore.swift */; };
 		7FC5FD6E24B2E7BA00BF4464 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC5FD6D24B2E7BA00BF4464 /* RootView.swift */; };
 		7FE01DAD24ADB4340001C2CB /* TwoEqualWidthColumnsExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE01DAC24ADB4340001C2CB /* TwoEqualWidthColumnsExampleView.swift */; };
+		95637E0CAE95218A5B69A414 /* Pods_SwiftUIMindBlowing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E39B85DA4B80C41C6F083F7 /* Pods_SwiftUIMindBlowing.framework */; };
 		9915305F2613EEBE0097630F /* MyApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9915305E2613EEBE0097630F /* MyApplication.swift */; };
 		991530622613EF570097630F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991530612613EF570097630F /* main.swift */; };
 		99372B8128171BB400612DE3 /* URLSessionDelegateGetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99372B8028171BB300612DE3 /* URLSessionDelegateGetView.swift */; };
@@ -404,6 +404,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04A81DC833A77B8F7AD91EEA /* Pods-SwiftUIMindBlowing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUIMindBlowing.debug.xcconfig"; path = "Target Support Files/Pods-SwiftUIMindBlowing/Pods-SwiftUIMindBlowing.debug.xcconfig"; sourceTree = "<group>"; };
 		6D1181F428D2517300793D70 /* TLFResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = TLFResources.bundle; path = "../ea_react_native_module_tealeaf_debug/iOS-SDK/iOSSrc/Tealeaf/Tealeaf/TLFResources.bundle"; sourceTree = "<group>"; };
 		6D1181F628D253C100793D70 /* Tealeaf.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Tealeaf.xcodeproj; path = "../iOS-SDK/iOSSrc/Tealeaf/Tealeaf.xcodeproj"; sourceTree = "<group>"; };
 		6D19F4F22926F0350082F42C /* TLAssertUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLAssertUtil.swift; sourceTree = "<group>"; };
@@ -425,7 +426,6 @@
 		7FC5FD6B24B2E79B00BF4464 /* AppStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStore.swift; sourceTree = "<group>"; };
 		7FC5FD6D24B2E7BA00BF4464 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		7FE01DAC24ADB4340001C2CB /* TwoEqualWidthColumnsExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoEqualWidthColumnsExampleView.swift; sourceTree = "<group>"; };
-		88ED5FCF811DEA8ADB36A42C /* Pods-SwiftUIMindBlowing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUIMindBlowing.debug.xcconfig"; path = "Target Support Files/Pods-SwiftUIMindBlowing/Pods-SwiftUIMindBlowing.debug.xcconfig"; sourceTree = "<group>"; };
 		9915305E2613EEBE0097630F /* MyApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyApplication.swift; sourceTree = "<group>"; };
 		991530612613EF570097630F /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		991530972613F2E60097630F /* SwiftUIMindBlowing-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftUIMindBlowing-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -446,8 +446,8 @@
 		999310EB270D451700F759A0 /* SwiftUIMindBlowingLinkLocalLib.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIMindBlowingLinkLocalLib.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		999310EC270D451700F759A0 /* SwiftUIMindBlowing-copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "SwiftUIMindBlowing-copy-Info.plist"; path = "/Users/ohernandez@us.ibm.com/git/github/SwiftUIMindBlowing 3/SwiftUIMindBlowing-copy-Info.plist"; sourceTree = "<absolute>"; };
 		99A21262261D014C00572036 /* TealeafLayoutConfig.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = TealeafLayoutConfig.json; sourceTree = "<group>"; };
-		A59EAAC9E1170C573AB2091B /* Pods-SwiftUIMindBlowing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUIMindBlowing.release.xcconfig"; path = "Target Support Files/Pods-SwiftUIMindBlowing/Pods-SwiftUIMindBlowing.release.xcconfig"; sourceTree = "<group>"; };
-		DB7C20ED9E3C09D1B0C8D88A /* Pods_SwiftUIMindBlowing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftUIMindBlowing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E39B85DA4B80C41C6F083F7 /* Pods_SwiftUIMindBlowing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftUIMindBlowing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B039344EEECF50A712C9D377 /* Pods-SwiftUIMindBlowing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUIMindBlowing.release.xcconfig"; path = "Target Support Files/Pods-SwiftUIMindBlowing/Pods-SwiftUIMindBlowing.release.xcconfig"; sourceTree = "<group>"; };
 		F60D9B7522C15EDD002891EE /* BlendModeExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlendModeExampleView.swift; sourceTree = "<group>"; };
 		F60D9B7922C161FA002891EE /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
 		F60D9B7B22C1662F002891EE /* KeyboardAwareExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardAwareExampleView.swift; sourceTree = "<group>"; };
@@ -580,7 +580,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D0A3315D2F4014F9AE4145B /* Pods_SwiftUIMindBlowing.framework in Frameworks */,
+				95637E0CAE95218A5B69A414 /* Pods_SwiftUIMindBlowing.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -590,8 +590,8 @@
 		09F938854170AC4BBBC65B22 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				88ED5FCF811DEA8ADB36A42C /* Pods-SwiftUIMindBlowing.debug.xcconfig */,
-				A59EAAC9E1170C573AB2091B /* Pods-SwiftUIMindBlowing.release.xcconfig */,
+				04A81DC833A77B8F7AD91EEA /* Pods-SwiftUIMindBlowing.debug.xcconfig */,
+				B039344EEECF50A712C9D377 /* Pods-SwiftUIMindBlowing.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -1384,7 +1384,7 @@
 			children = (
 				6D19F55B2939629A0082F42C /* XCFrameworkExample.xcodeproj */,
 				6D1181F628D253C100793D70 /* Tealeaf.xcodeproj */,
-				DB7C20ED9E3C09D1B0C8D88A /* Pods_SwiftUIMindBlowing.framework */,
+				9E39B85DA4B80C41C6F083F7 /* Pods_SwiftUIMindBlowing.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -1414,13 +1414,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F6F47C9322BABEF8009E3C48 /* Build configuration list for PBXNativeTarget "SwiftUIMindBlowing" */;
 			buildPhases = (
-				A5B31219193AB06305FFCDD4 /* [CP] Check Pods Manifest.lock */,
+				392CCB79481BA49C4EC51F0B /* [CP] Check Pods Manifest.lock */,
 				99A2126A261D020100572036 /* Run Script - Update TealeafLayoutConfig.json */,
 				F6F47C7B22BABEF7009E3C48 /* Sources */,
 				F6F47C7C22BABEF7009E3C48 /* Frameworks */,
 				F6F47C7D22BABEF7009E3C48 /* Resources */,
-				5C334ED1E8692D377AA19181 /* [CP] Embed Pods Frameworks */,
-				40A1557C05391122DE4C779A /* [CP] Copy Pods Resources */,
+				CCB8B2697CAD165AF8C9DAC4 /* [CP] Embed Pods Frameworks */,
+				ED2788A2DCCCD134C909B55D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1593,38 +1593,26 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		40A1557C05391122DE4C779A /* [CP] Copy Pods Resources */ = {
+		392CCB79481BA49C4EC51F0B /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SwiftUIMindBlowing/Pods-SwiftUIMindBlowing-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Copy Pods Resources";
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SwiftUIMindBlowing/Pods-SwiftUIMindBlowing-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftUIMindBlowing-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftUIMindBlowing/Pods-SwiftUIMindBlowing-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		5C334ED1E8692D377AA19181 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SwiftUIMindBlowing/Pods-SwiftUIMindBlowing-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SwiftUIMindBlowing/Pods-SwiftUIMindBlowing-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftUIMindBlowing/Pods-SwiftUIMindBlowing-frameworks.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		99A2126A261D020100572036 /* Run Script - Update TealeafLayoutConfig.json */ = {
@@ -1645,26 +1633,38 @@
 			shellPath = /bin/sh;
 			shellScript = "# Since pod has default layout, need to replace it with correct values for this application.\necho \"Update TealeafLayoutConfig.json from podfile download.\"\ncp -f \"${PROJECT_DIR}/PatchTealeafSDK/TealeafLayoutConfig.json\" \"${PODS_ROOT}/TealeafDebug/SDKs/iOS/Debug/TLFResources.bundle/TealeafLayoutConfig.json\"\necho \"Update TealeafAdvancedConfig.json from podfile download.\"\nsed -i \"\" 's/\\\"RemoveSwiftUIDuplicates\\\"\\: true/\\\"RemoveSwiftUIDuplicates\\\"\\: false/' \"${PODS_ROOT}/TealeafDebug/SDKs/iOS/Debug/TLFResources.bundle/TealeafAdvancedConfig.json\"\nsed -i \"\" 's/\\\"LogFullRequestResponsePayloads\\\"\\: false/\\\"LogFullRequestResponsePayloads\\\"\\: true/' \"${PODS_ROOT}/TealeafDebug/SDKs/iOS/Debug/TLFResources.bundle/TealeafAdvancedConfig.json\"\n";
 		};
-		A5B31219193AB06305FFCDD4 /* [CP] Check Pods Manifest.lock */ = {
+		CCB8B2697CAD165AF8C9DAC4 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftUIMindBlowing/Pods-SwiftUIMindBlowing-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
+			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SwiftUIMindBlowing-checkManifestLockResult.txt",
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftUIMindBlowing/Pods-SwiftUIMindBlowing-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftUIMindBlowing/Pods-SwiftUIMindBlowing-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED2788A2DCCCD134C909B55D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftUIMindBlowing/Pods-SwiftUIMindBlowing-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftUIMindBlowing/Pods-SwiftUIMindBlowing-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftUIMindBlowing/Pods-SwiftUIMindBlowing-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -2161,7 +2161,7 @@
 		};
 		F6F47C9422BABEF8009E3C48 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 88ED5FCF811DEA8ADB36A42C /* Pods-SwiftUIMindBlowing.debug.xcconfig */;
+			baseConfigurationReference = 04A81DC833A77B8F7AD91EEA /* Pods-SwiftUIMindBlowing.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Apple Development";
@@ -2185,7 +2185,7 @@
 		};
 		F6F47C9522BABEF8009E3C48 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A59EAAC9E1170C573AB2091B /* Pods-SwiftUIMindBlowing.release.xcconfig */;
+			baseConfigurationReference = B039344EEECF50A712C9D377 /* Pods-SwiftUIMindBlowing.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Apple Development";
